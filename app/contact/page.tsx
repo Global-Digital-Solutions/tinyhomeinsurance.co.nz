@@ -130,7 +130,7 @@ export default function ContactPage() {
 
             {/* ── RIGHT: Form ──────────────────────────────────────── */}
             <div className="lg:col-span-3">
-              <div className="bg-white rounded-2xl border-2 border-stone-200 shadow-xl p-8 sticky top-24">
+              <div className="bg-white rounded-2xl border-2 border-green-600 shadow-xl p-8 sticky top-24">
                 <h2 className="text-2xl font-extrabold text-stone-900 mb-2">Get Your Tiny Home Quote</h2>
                 <p className="text-stone-500 text-sm mb-7 leading-relaxed">
                   Fill in the short form below. A NZ-licensed tiny home specialist will compare options and be in touch within one business day.
