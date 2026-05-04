@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://tinyhomeinsurance.co.nz/sitemap.xml

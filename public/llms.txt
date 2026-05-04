@@ -1,0 +1,36 @@
+# TinyHomeInsurance.co.nz
+
+> Specialist insurance for tiny homes, tiny houses on wheels (THOWs), container homes, and off-grid dwellings across New Zealand.
+
+TinyHomeInsurance.co.nz is a New Zealand insurance referral service. We connect tiny home owners with NZ-licensed insurance advisers who specialise in non-standard dwellings. Our advisers have access to the broking market and can arrange specialist cover for all types of tiny homes.
+
+## What We Cover
+
+- Tiny houses on wheels (THOW) — building, transit, and liability
+- Fixed-foundation tiny homes — building and contents
+- Container homes — structure and contents
+- Off-grid dwellings and cabins — including solar, battery, and rainwater systems
+- Park homes and relocatable homes
+- Tiny home rental and Airbnb cover
+- Public liability for tiny home owners
+
+## Key Pages
+
+- /coverage/ — All coverage types with detailed descriptions
+- /coverage/building-structure/ — Building and structure insurance for tiny homes
+- /coverage/contents-insurance/ — Contents insurance for tiny home residents
+- /coverage/transit-towing-cover/ — Transit cover for THOWs
+- /coverage/public-liability/ — Public liability insurance
+- /coverage/off-grid-systems/ — Cover for solar, battery and off-grid infrastructure
+- /coverage/loss-of-use/ — Alternative accommodation cover
+- /coverage/landlord-insurance/ — Landlord cover for rental tiny homes
+- /faq/ — Frequently asked questions about tiny home insurance in NZ
+- /blog/ — Guides and articles on tiny home insurance
+- /contact/ — Quote request form
+- /about/ — About the service and financial advice disclosure
+
+## About This Service
+
+TinyHomeInsurance.co.nz is a lead generation and referral service, not an insurer or licensed financial adviser. Advisers referred through this service are NZ-licensed under the Financial Markets Conduct Act 2013. The service is free to consumers; advisers earn commission from insurers.
+
+Contact: hello@cover4you.co.nz
