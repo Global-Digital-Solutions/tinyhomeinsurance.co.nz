@@ -315,6 +315,12 @@ export default function ComparePage() {
               Generally not available
             </div>
           </div>
+
+          {/* Disclaimer directly under table */}
+          <div className="mt-5 bg-stone-50 border border-stone-200 rounded-xl p-5 text-xs text-stone-500 leading-relaxed">
+            <strong className="text-stone-600 block mb-1.5">Important: This comparison is general information only</strong>
+            This table is based on publicly available policy wordings, underwriting guidelines, and published insurer statements as at May 2026. It is indicative only and does not constitute financial advice or a guarantee of coverage. Insurer positions on non-standard risks change regularly, and individual circumstances are assessed on a case-by-case basis. Always confirm current coverage terms directly with the insurer or a licensed financial adviser before making any insurance decision. TinyHomeInsurance.co.nz is a referral service operating under the Financial Markets Conduct Act 2013 — we do not underwrite insurance or provide personalised financial advice.
+          </div>
         </div>
       </section>
 
