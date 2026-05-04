@@ -14,7 +14,7 @@ const lifestyleTypes = [
     title: 'Tiny House on Wheels',
     subtitle: 'Mobile · Towable · Relocatable',
     desc: 'Freedom to roam NZ\'s backroads, lifestyle blocks, and communities — with specialist cover that travels with you.',
-    img: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=800&q=80',
+    img: '/images/tinyhome_insurance_1.jpg',
   },
   {
     icon: '☀️',
@@ -112,7 +112,7 @@ export default function HomePage() {
       <section
         className="relative min-h-[88vh] flex items-center text-white overflow-hidden"
         style={{
-          backgroundImage: `linear-gradient(to bottom right, rgba(5,35,12,0.70) 0%, rgba(8,45,18,0.58) 50%, rgba(0,18,5,0.78) 100%), url('https://images.unsplash.com/photo-1604549001484-df28edea610b?auto=format&fit=crop&w=1920&q=80')`,
+          backgroundImage: `linear-gradient(to bottom right, rgba(5,35,12,0.60) 0%, rgba(8,45,18,0.45) 50%, rgba(0,18,5,0.70) 100%), url('/images/tinyhome_insurance_2.jpg')`,
           backgroundSize: 'cover',
           backgroundPosition: 'center 50%',
         }}
@@ -225,7 +225,7 @@ export default function HomePage() {
       <section
         className="relative py-20 text-white overflow-hidden"
         style={{
-          backgroundImage: `linear-gradient(135deg, rgba(5,46,22,0.96) 0%, rgba(10,60,30,0.95) 50%, rgba(3,30,12,0.97) 100%), url('https://images.unsplash.com/photo-1501854140801-50d01698950b?auto=format&fit=crop&w=1920&q=80')`,
+          backgroundImage: `linear-gradient(135deg, rgba(5,46,22,0.90) 0%, rgba(10,60,30,0.88) 50%, rgba(3,30,12,0.93) 100%), url('/images/tinyhome_insurance_2.jpg')`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
         }}
@@ -348,7 +348,7 @@ export default function HomePage() {
       <section
         className="relative py-20 overflow-hidden"
         style={{
-          backgroundImage: `linear-gradient(to bottom, rgba(15,30,15,0.88) 0%, rgba(5,40,15,0.90) 100%), url('https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1920&q=80')`,
+          backgroundImage: `linear-gradient(to bottom, rgba(15,30,15,0.82) 0%, rgba(5,40,15,0.85) 100%), url('/images/tinyhome_insurance_1.jpg')`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           backgroundAttachment: 'fixed',
@@ -436,7 +436,7 @@ export default function HomePage() {
       <section
         className="relative py-24 text-white text-center overflow-hidden"
         style={{
-          backgroundImage: `linear-gradient(to bottom, rgba(5,46,22,0.90) 0%, rgba(3,30,12,0.95) 100%), url('https://images.unsplash.com/photo-1501854140801-50d01698950b?auto=format&fit=crop&w=1920&q=80')`,
+          backgroundImage: `linear-gradient(to bottom, rgba(5,46,22,0.82) 0%, rgba(3,30,12,0.90) 100%), url('/images/tinyhome_insurance_3.jpg')`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
         }}

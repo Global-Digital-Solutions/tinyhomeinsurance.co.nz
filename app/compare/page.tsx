@@ -205,7 +205,7 @@ export default function ComparePage() {
       <section
         className="relative py-24 text-white overflow-hidden"
         style={{
-          backgroundImage: `linear-gradient(to bottom right, rgba(5,35,12,0.82) 0%, rgba(8,45,18,0.76) 60%, rgba(0,18,5,0.88) 100%), url('https://images.unsplash.com/photo-1604549001484-df28edea610b?auto=format&fit=crop&w=1920&q=80')`,
+          backgroundImage: `linear-gradient(to bottom right, rgba(5,35,12,0.68) 0%, rgba(8,45,18,0.58) 60%, rgba(0,18,5,0.76) 100%), url('/images/tinyhome_insurance_3.jpg')`,
           backgroundSize: 'cover',
           backgroundPosition: 'center 50%',
         }}

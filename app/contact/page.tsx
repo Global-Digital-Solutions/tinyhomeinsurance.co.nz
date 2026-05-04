@@ -13,7 +13,7 @@ export default function ContactPage() {
       <section
         className="relative py-20 text-white overflow-hidden"
         style={{
-          backgroundImage: `linear-gradient(to bottom right, rgba(5,40,15,0.82) 0%, rgba(10,55,25,0.76) 60%, rgba(0,25,8,0.88) 100%), url('https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=1920&q=80')`,
+          backgroundImage: `linear-gradient(to bottom right, rgba(5,40,15,0.68) 0%, rgba(10,55,25,0.58) 60%, rgba(0,25,8,0.76) 100%), url('/images/tinyhome_insurance_2.jpg')`,
           backgroundSize: 'cover',
           backgroundPosition: 'center 30%',
         }}

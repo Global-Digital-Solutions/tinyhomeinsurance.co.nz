@@ -13,7 +13,7 @@ export default function CoveragePage() {
       <section
         className="relative py-24 text-white overflow-hidden"
         style={{
-          backgroundImage: `linear-gradient(to bottom right, rgba(5,40,15,0.80) 0%, rgba(10,55,25,0.75) 50%, rgba(0,25,8,0.88) 100%), url('https://images.unsplash.com/photo-1501854140801-50d01698950b?auto=format&fit=crop&w=1920&q=80')`,
+          backgroundImage: `linear-gradient(to bottom right, rgba(5,40,15,0.68) 0%, rgba(10,55,25,0.58) 50%, rgba(0,25,8,0.76) 100%), url('/images/tinyhome_insurance_1.jpg')`,
           backgroundSize: 'cover',
           backgroundPosition: 'center 40%',
         }}
@@ -62,7 +62,7 @@ export default function CoveragePage() {
           <div
             className="mt-14 rounded-2xl p-10 text-white text-center overflow-hidden relative"
             style={{
-              backgroundImage: `linear-gradient(135deg, rgba(5,46,22,0.97) 0%, rgba(10,60,30,0.96) 100%), url('https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1920&q=80')`,
+              backgroundImage: `linear-gradient(135deg, rgba(5,46,22,0.88) 0%, rgba(10,60,30,0.90) 100%), url('/images/tinyhome_insurance_2.jpg')`,
               backgroundSize: 'cover',
               backgroundPosition: 'center',
             }}

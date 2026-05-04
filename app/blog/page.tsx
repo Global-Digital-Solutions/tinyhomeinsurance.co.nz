@@ -22,7 +22,7 @@ export default function BlogPage() {
       <section
         className="relative py-24 text-white overflow-hidden"
         style={{
-          backgroundImage: `linear-gradient(to bottom right, rgba(5,40,15,0.78) 0%, rgba(10,55,25,0.72) 50%, rgba(0,25,8,0.85) 100%), url('https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1920&q=80')`,
+          backgroundImage: `linear-gradient(to bottom right, rgba(5,40,15,0.70) 0%, rgba(10,55,25,0.60) 50%, rgba(0,25,8,0.78) 100%), url('/images/tinyhome_insurance_3.jpg')`,
           backgroundSize: 'cover',
           backgroundPosition: 'center 35%',
         }}
