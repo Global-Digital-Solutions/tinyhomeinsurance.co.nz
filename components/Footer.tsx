@@ -43,9 +43,9 @@ export default function Footer() {
             <ul className="space-y-2.5 text-sm">
               <li><Link href="/faq/" className="text-stone-400 hover:text-green-400 transition">FAQs</Link></li>
               <li><Link href="/blog/" className="text-stone-400 hover:text-green-400 transition">Blog &amp; Guides</Link></li>
+              <li><Link href="/compare/" className="text-stone-400 hover:text-green-400 transition">Insurer Comparison</Link></li>
               <li><Link href="/about/" className="text-stone-400 hover:text-green-400 transition">About Us</Link></li>
               <li><Link href="/contact/" className="text-stone-400 hover:text-green-400 transition">Get a Quote</Link></li>
-              <li><Link href="/contact/" className="text-stone-400 hover:text-green-400 transition">Contact</Link></li>
             </ul>
           </div>
 

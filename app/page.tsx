@@ -112,9 +112,9 @@ export default function HomePage() {
       <section
         className="relative min-h-[88vh] flex items-center text-white overflow-hidden"
         style={{
-          backgroundImage: `linear-gradient(to bottom right, rgba(5,40,15,0.75) 0%, rgba(10,50,20,0.62) 50%, rgba(0,20,5,0.80) 100%), url('https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=1920&q=80')`,
+          backgroundImage: `linear-gradient(to bottom right, rgba(5,35,12,0.70) 0%, rgba(8,45,18,0.58) 50%, rgba(0,18,5,0.78) 100%), url('https://images.unsplash.com/photo-1604549001484-df28edea610b?auto=format&fit=crop&w=1920&q=80')`,
           backgroundSize: 'cover',
-          backgroundPosition: 'center 40%',
+          backgroundPosition: 'center 50%',
         }}
       >
         {/* grain overlay */}
