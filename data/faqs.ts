@@ -26,6 +26,26 @@ export const faqs: FAQ[] = [
     question: 'Is tiny home insurance expensive?',
     answer: 'The cost of tiny home insurance depends on several factors: the replacement value of your home, your location and weather exposure, whether your home is on wheels or fixed, your security arrangements, and the covers you select. Because tiny homes are typically lower in replacement value than conventional houses, premiums can be surprisingly affordable — though specialist cover will cost more than a generic policy that may not actually respond at claim time. Our advisers compare options to find the right balance of cover and cost.',
   },
+  {
+    category: 'General',
+    question: 'Will mainstream NZ insurers like AA or Initio cover my tiny home?',
+    answer: 'It depends heavily on your home type. Mainstream insurers like AA Insurance and Initio can cover permanently sited tiny homes that are fixed to the land, connected to services, and have a Code of Compliance — but they explicitly decline to insure tiny houses on wheels (THOWs) or any tiny home that can be moved, even if you never plan to move it. AA Insurance requires wheels removed and the home fixed to piles. Initio redirects THOW owners to caravan insurance. If you have a THOW, a DIY build, or an off-grid dwelling, you will likely need a specialist insurer — which is exactly where our advisers can help.',
+  },
+  {
+    category: 'General',
+    question: 'My insurer said to get caravan insurance for my THOW. Is that right?',
+    answer: 'It\'s a common response from mainstream insurers, but caravan insurance is not designed for custom-built tiny houses on wheels and is likely to leave you significantly underinsured. Caravan policies are written for manufactured caravans — they typically have low sum-insured limits, depreciation clauses that reduce payouts over time, and restrictions on full-time occupation. A purpose-built THOW is a genuine dwelling with a much higher replacement value. Our specialist advisers work with insurers who understand this distinction and can insure your THOW as the home it actually is.',
+  },
+  {
+    category: 'General',
+    question: 'Can a DIY-built tiny home be insured in New Zealand?',
+    answer: 'Yes, but it\'s one of the trickiest areas of the tiny home insurance market. Many mainstream insurers will decline to cover DIY-built homes outright because of concerns about build quality, compliance, and difficulty establishing replacement value. Specialist insurers take a more nuanced approach — they\'ll consider the owner-builder\'s experience, the quality of materials, whether a licensed building practitioner was involved in any capacity, and whether the home has any certification. Our advisers know which insurers will consider DIY builds and what documentation helps secure cover.',
+  },
+  {
+    category: 'General',
+    question: 'Does the January 2026 building consent exemption affect my tiny home insurance?',
+    answer: 'Yes — under regulations that came into effect in January 2026, new homes under 70m² no longer require building consent if they meet certain criteria (single-storey, standalone, compliant design, licensed building practitioners, council notification). Some insurers including Initio have confirmed they can consider cover for homes built under this exemption, provided all conditions are met. Our advisers can assess whether your tiny home qualifies and which insurers will provide cover without a traditional Code of Compliance.',
+  },
   // Building & Structure
   {
     category: 'Building & Structure',

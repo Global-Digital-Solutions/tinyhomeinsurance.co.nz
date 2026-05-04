@@ -73,10 +73,10 @@ export default function HomePage() {
             </h1>
 
             <p className="text-xl md:text-2xl text-stone-200 mb-4 leading-relaxed font-light">
-              Whether your home travels NZ&apos;s back roads, sits off-grid on a lifestyle block, or nestles in a container on a hillside farm — standard insurance wasn&apos;t built for you.
+              Mainstream NZ insurers decline THOWs. They redirect off-grid owners to the wrong products. They ghost DIY builders.
             </p>
             <p className="text-lg text-stone-300 mb-10 leading-relaxed">
-              We match you with NZ-licensed advisers who specialise in tiny home cover. Free, no-obligation, within one business day.
+              We connect you with NZ-licensed advisers who specialise in exactly this — THOWs, container homes, off-grid cabins, lifestyle block dwellings. Free, no obligation, within one business day.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
@@ -166,23 +166,23 @@ export default function HomePage() {
                 {[
                   {
                     bad: true,
-                    title: 'THOWs are usually declined outright',
-                    desc: 'Most NZ insurers require a permanent foundation. A tiny house on wheels doesn\'t qualify — leaving you uninsured.',
+                    title: 'Major insurers explicitly decline THOWs',
+                    desc: 'AA Insurance and Initio both redirect THOW owners away. If your home can move — even if you never plan to move it — mainstream insurers won\'t cover it.',
                   },
                   {
                     bad: true,
-                    title: 'Non-standard construction is excluded',
-                    desc: 'Recycled timber, corten steel, polycarbonate cladding, and SIP panels trigger exclusions in standard policies.',
+                    title: '"Just get caravan insurance" isn\'t good enough',
+                    desc: 'Caravan policies depreciate over time, have low sum-insured limits, and aren\'t designed for custom-built dwellings. You\'d be significantly underinsured.',
                   },
                   {
                     bad: true,
-                    title: 'Off-grid systems aren\'t covered',
-                    desc: 'Your solar array, battery bank, composting system, and rainwater tanks need specific endorsement — rarely included by default.',
+                    title: 'DIY builds and off-grid systems are excluded',
+                    desc: 'Owner-builder homes, solar arrays, battery banks, and rainwater systems are routinely excluded by policies not designed for the tiny home lifestyle.',
                   },
                   {
                     bad: false,
-                    title: 'Our advisers know exactly who will cover you',
-                    desc: 'We work with specialists who understand the NZ tiny home market and can place your exact home at full replacement value.',
+                    title: 'Our advisers know which insurers will say yes',
+                    desc: 'We work with specialists who understand the NZ tiny home market and can place your exact home — THOW, container, or off-grid — at full replacement value.',
                   },
                 ].map(item => (
                   <div key={item.title} className="flex gap-4 p-4 rounded-xl bg-white/5 border border-white/10">
