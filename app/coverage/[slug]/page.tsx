@@ -25,16 +25,24 @@ export default async function CoverageTypePage({ params }: { params: Promise<{ s
 
   return (
     <div className="bg-stone-50 min-h-screen">
-      <div className="bg-brand-900 text-white py-14">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <Link href="/coverage/" className="text-brand-300 hover:text-white text-sm font-semibold mb-4 inline-block">
+      <div
+        className="relative py-20 text-white overflow-hidden"
+        style={{
+          backgroundImage: `linear-gradient(to bottom right, rgba(5,40,15,0.72) 0%, rgba(10,55,25,0.62) 50%, rgba(0,25,8,0.80) 100%), url('/images/tinyhome_insurance_1.jpg')`,
+          backgroundSize: 'cover',
+          backgroundPosition: 'center 45%',
+        }}
+      >
+        <div className="absolute bottom-0 left-0 right-0 h-12 bg-gradient-to-t from-stone-50 to-transparent" />
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <Link href="/coverage/" className="text-green-300 hover:text-white text-sm font-semibold mb-5 inline-block">
             ← Coverage Types
           </Link>
           <div className="flex items-center gap-4 mb-4">
             <span className="text-5xl">{ct.icon}</span>
             <h1 className="text-3xl md:text-4xl font-extrabold">{ct.name}</h1>
           </div>
-          <p className="text-xl text-brand-100 max-w-2xl">{ct.shortDesc}</p>
+          <p className="text-xl text-stone-200 max-w-2xl leading-relaxed">{ct.shortDesc}</p>
         </div>
       </div>
 

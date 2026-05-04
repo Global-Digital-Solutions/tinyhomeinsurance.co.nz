@@ -48,14 +48,22 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
 
   return (
     <div className="bg-stone-50 min-h-screen">
-      <div className="bg-brand-900 text-white py-14">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <Link href="/blog/" className="text-brand-300 hover:text-white text-sm font-semibold mb-4 inline-block">
+      <div
+        className="relative py-20 text-white overflow-hidden"
+        style={{
+          backgroundImage: `linear-gradient(to bottom right, rgba(5,40,15,0.72) 0%, rgba(10,55,25,0.62) 50%, rgba(0,25,8,0.80) 100%), url('/images/tinyhome_insurance_2.jpg')`,
+          backgroundSize: 'cover',
+          backgroundPosition: 'center 40%',
+        }}
+      >
+        <div className="absolute bottom-0 left-0 right-0 h-12 bg-gradient-to-t from-stone-50 to-transparent" />
+        <div className="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <Link href="/blog/" className="text-green-300 hover:text-white text-sm font-semibold mb-5 inline-block">
             ← All Guides
           </Link>
           <div className="flex items-center gap-3 mb-4">
-            <span className="text-xs font-bold uppercase tracking-wide text-brand-300 bg-brand-700/50 px-3 py-1 rounded-full">{post.category}</span>
-            <span className="text-stone-400 text-sm">{post.readTime}</span>
+            <span className="text-xs font-bold uppercase tracking-wide text-green-200 bg-white/10 backdrop-blur-sm px-3 py-1 rounded-full border border-white/20">{post.category}</span>
+            <span className="text-stone-300 text-sm">{post.readTime}</span>
           </div>
           <h1 className="text-3xl md:text-4xl font-extrabold leading-tight">{post.title}</h1>
         </div>
