@@ -1,4 +1,11 @@
 User-agent: *
 Allow: /
 
+# Disallow internal/utility paths
+Disallow: /api/
+Disallow: /_next/
+
+# Crawl delay for polite bots
+Crawl-delay: 1
+
 Sitemap: https://tinyhomeinsurance.co.nz/sitemap.xml

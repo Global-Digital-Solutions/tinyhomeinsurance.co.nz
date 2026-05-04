@@ -459,15 +459,36 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Schema */}
+      {/* Schema Markup */}
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         '@context': 'https://schema.org',
-        '@type': 'InsuranceAgency',
+        '@type': 'LocalBusiness',
+        '@id': SITE.domain,
         name: SITE.name,
         description: SITE.description,
         url: SITE.domain,
-        areaServed: 'NZ',
-        serviceType: 'Tiny Home Insurance',
+        email: SITE.email,
+        areaServed: { '@type': 'Country', name: 'New Zealand' },
+        serviceType: 'Insurance Advisory Service',
+        priceRange: 'Free to consumer',
+        knowsAbout: [
+          'Tiny home insurance New Zealand',
+          'THOW insurance NZ',
+          'Container home insurance NZ',
+          'Off-grid home insurance',
+          'Tiny home on wheels insurance',
+        ],
+        hasOfferCatalog: {
+          '@type': 'OfferCatalog',
+          name: 'Tiny Home Insurance Products',
+          itemListElement: [
+            { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Building & Structure Insurance' }},
+            { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Contents Insurance' }},
+            { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Transit & Towing Cover' }},
+            { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Public Liability Insurance' }},
+            { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Off-Grid Systems Cover' }},
+          ],
+        },
       })}} />
     </>
   );

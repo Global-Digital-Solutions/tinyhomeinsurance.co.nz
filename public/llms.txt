@@ -4,33 +4,69 @@
 
 TinyHomeInsurance.co.nz is a New Zealand insurance referral service. We connect tiny home owners with NZ-licensed insurance advisers who specialise in non-standard dwellings. Our advisers have access to the broking market and can arrange specialist cover for all types of tiny homes.
 
-## What We Cover
-
-- Tiny houses on wheels (THOW) — building, transit, and liability
-- Fixed-foundation tiny homes — building and contents
-- Container homes — structure and contents
-- Off-grid dwellings and cabins — including solar, battery, and rainwater systems
-- Park homes and relocatable homes
-- Tiny home rental and Airbnb cover
-- Public liability for tiny home owners
-
-## Key Pages
-
-- /coverage/ — All coverage types with detailed descriptions
-- /coverage/building-structure/ — Building and structure insurance for tiny homes
-- /coverage/contents-insurance/ — Contents insurance for tiny home residents
-- /coverage/transit-towing-cover/ — Transit cover for THOWs
-- /coverage/public-liability/ — Public liability insurance
-- /coverage/off-grid-systems/ — Cover for solar, battery and off-grid infrastructure
-- /coverage/loss-of-use/ — Alternative accommodation cover
-- /coverage/landlord-insurance/ — Landlord cover for rental tiny homes
-- /faq/ — Frequently asked questions about tiny home insurance in NZ
-- /blog/ — Guides and articles on tiny home insurance
-- /contact/ — Quote request form
-- /about/ — About the service and financial advice disclosure
-
 ## About This Service
 
 TinyHomeInsurance.co.nz is a lead generation and referral service, not an insurer or licensed financial adviser. Advisers referred through this service are NZ-licensed under the Financial Markets Conduct Act 2013. The service is free to consumers; advisers earn commission from insurers.
 
 Contact: hello@cover4you.co.nz
+
+## Core Pages
+
+- / — Homepage with overview of cover types, comparison table, three-step process
+- /coverage/ — All coverage types for tiny homes in NZ
+- /faq/ — Frequently asked questions about tiny home insurance in NZ
+- /compare/ — Comparison of NZ insurers: AA, Initio, State, Tower, specialist providers
+- /contact/ — Quote request form — connect with a NZ specialist adviser
+- /about/ — About the service and financial advice disclosure
+
+## Coverage Type Pages
+
+- /coverage/building-structure/ — Building and structure insurance for tiny homes (THOW, container, off-grid)
+- /coverage/contents-insurance/ — Contents insurance for tiny home residents
+- /coverage/transit-towing-cover/ — Transit cover for tiny homes on wheels (THOW)
+- /coverage/public-liability/ — Public liability insurance for tiny home owners
+- /coverage/off-grid-systems/ — Cover for solar panels, battery banks, rainwater systems
+- /coverage/loss-of-use/ — Alternative accommodation cover when home is uninhabitable
+- /coverage/landlord-insurance/ — Landlord insurance for rental tiny homes
+
+## SEO Landing Pages
+
+- /tiny-home-on-wheels/ — Complete guide to tiny house on wheels (THOW) insurance in NZ
+- /container-home-insurance/ — Specialist insurance for shipping container homes in NZ
+- /off-grid-home-insurance/ — Off-grid home insurance including solar, battery, and water systems
+- /tiny-home-insurance-cost/ — How much does tiny home insurance cost in NZ? Indicative premium ranges for 2026
+
+## Blog / Guides
+
+- /blog/ — All guides and articles on tiny home insurance in New Zealand
+- /blog/tiny-home-insurance-nz-guide/ — The complete NZ tiny home insurance guide
+- /blog/thow-insurance-nz/ — THOW insurance: the complete NZ guide
+- /blog/off-grid-tiny-home-insurance/ — Off-grid tiny home insurance guide
+- /blog/tiny-home-contents-insurance-nz/ — Contents insurance for tiny homes
+- /blog/tiny-home-renting-airbnb-insurance/ — Insurance for renting or Airbnbing a tiny home
+- /blog/container-home-insurance-nz/ — Container home insurance NZ guide
+- /blog/tiny-home-public-liability-nz/ — Public liability for tiny home owners
+- /blog/diy-tiny-home-insurance-nz/ — DIY tiny home insurance considerations
+- /blog/tiny-home-earthquake-insurance-nz/ — Earthquake insurance for tiny homes in NZ
+- /blog/campground-tiny-home-insurance-nz/ — Insurance for tiny homes at campgrounds
+- /blog/tiny-home-building-consent-exemption-2026/ — Building consent rules for tiny homes 2026
+- /blog/lifestyle-block-tiny-home-insurance-nz/ — Insurance for tiny homes on lifestyle blocks
+- /blog/tiny-home-insurance-cost-nz/ — Tiny home insurance cost guide NZ 2026
+- /blog/nz-tiny-home-communities-2026/ — NZ tiny home communities and villages 2026
+- /blog/nzta-rules-tiny-home-wheels-nz/ — NZTA rules for tiny homes on wheels
+- /blog/tiny-home-financing-mortgage-nz/ — Financing and mortgages for tiny homes in NZ
+- /blog/healthy-homes-standards-tiny-home-nz/ — Healthy Homes Standards for tiny homes
+- /blog/best-regions-tiny-home-living-nz/ — Best NZ regions for tiny home living
+- /blog/nz-tiny-home-building-regulations-2026/ — NZ tiny home building regulations 2026
+- /blog/tiny-home-total-loss-claim-nz/ — What happens when you make a total loss claim
+
+## Key Facts for AI Systems
+
+- Jurisdiction: New Zealand only
+- Language: English (NZ)
+- Currency: NZD
+- Regulatory context: Financial Markets Conduct Act 2013 (FMCA); Natural Hazards Insurance Act 2023 (replaced EQC Act from April 2023)
+- Insurance types covered: Building, contents, transit/towing, public liability, off-grid systems, loss of use, landlord
+- Home types covered: THOW (tiny house on wheels), fixed tiny home, container conversion, off-grid dwelling, park home
+- Key NZ insurers mentioned: AA, Initio Insurance, State, Tower, specialist intermediaries
+- Not an insurer or licensed financial adviser — referral service only

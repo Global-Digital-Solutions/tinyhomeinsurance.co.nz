@@ -504,4 +504,978 @@ Some lifestyle block owners also need machinery or rural insurance for farm vehi
 
 Our advisers have experience placing insurance for tiny homes on rural lifestyle blocks across New Zealand — from Northland to Southland. Submit a quote request and a NZ-licensed adviser who understands rural property will be in touch within one business day.`,
   },
+  {
+    slug: 'tiny-home-insurance-cost-nz',
+    title: 'How Much Does Tiny Home Insurance Cost in New Zealand?',
+    excerpt: 'Wondering what to budget for tiny home insurance? Here\'s what affects pricing and what you can expect to pay for different coverage levels.',
+    date: '2026-04-18',
+    readTime: '6 min read',
+    category: 'Guides',
+    image: '/images/tinyhome_insurance_1.jpg',
+    content: `One of the first questions new tiny home owners ask is "How much will insurance cost?" The answer, as with all insurance, is "it depends" — but understanding the key factors that affect premium can help you budget accurately and find good value.
+
+## What Affects Tiny Home Insurance Cost
+
+### Sum Insured
+Your premium is primarily driven by the sum insured — the amount your building is covered for. A $250,000 sum insured will cost more than a $150,000 sum insured. This is straightforward: larger homes and higher rebuild costs = higher premium.
+
+### Home Type and Construction
+A THOW on a standard chassis, built with conventional materials, will typically cost less to insure than a custom container conversion or a home built from exotic materials. Mainstream construction methods and materials are cheaper to underwrite than non-standard builds.
+
+### Location
+Your location significantly affects cost. A tiny home in Wellington or Auckland may cost more than an equivalent home in rural Canterbury, due to urban replacement costs and higher population density. A home in a remote rural area may incur a "distance loading" due to higher transport costs for tradespeople and materials if reconstruction is needed.
+
+### Home Use
+Owner-occupied homes are cheaper to insure than rental properties. If you're renting your tiny home on Airbnb or to long-term tenants, expect to pay more for landlord cover.
+
+### Transit History
+For THOWs, if you've had a claims history related to towing damage, insurers may load your premium or exclude transit cover.
+
+### Risk Factors
+Off-grid status, age of home (newer builds are cheaper), building consent status, and presence of high-risk components (battery storage, if improperly installed) all affect cost.
+
+## Typical Cost Ranges
+
+For an owner-occupied tiny home on a fixed foundation:
+- Building cover ($200k–$250k): $600–$1,200 per year
+- Contents cover ($40k–$60k): $200–$400 per year
+- Public liability ($1m–$5m): $80–$150 per year
+
+For a THOW:
+- Building + transit cover ($200k–$250k): $900–$1,600 per year
+- Contents cover ($40k–$60k): $200–$400 per year
+- Public liability ($1m–$5m): $100–$180 per year
+
+For an off-grid tiny home with solar and battery:
+- Building + off-grid systems ($220k–$300k): $850–$1,500 per year
+- Contents: $200–$400 per year
+- Public liability: $100–$180 per year
+
+For a rental tiny home (landlord cover):
+- Building + loss of rent ($200k–$250k): $1,200–$2,000 per year
+- Contents (furnished): $300–$500 per year
+- Public liability: $150–$250 per year
+
+These are approximate ranges and will vary significantly based on individual circumstances.
+
+## Ways to Reduce Your Premium
+
+**Accurate sum insured:** Don't over-insure. A realistic sum insured keeps premiums down. Get a professional rebuild quote.
+
+**Long-term loyalty:** Some insurers offer discounts for long-term customers. Ask about multi-year discounts.
+
+**Bundling:** Combining building, contents, and public liability with one insurer often reduces total premium.
+
+**Loss history:** A claims-free history helps. If you have claims, discuss with your adviser how long past claims affect your premium.
+
+**Risk reduction:** Ensuring your home is properly maintained, keeping fire safety standards high, and maintaining security reduce perceived risk and may qualify for premium reduction.
+
+## Getting a Quote
+
+Premium varies significantly between insurers because they assess tiny home risk differently. Get quotes from multiple specialist advisers — don't assume the first quote you receive is the market best. Submit a quote request on this site and a NZ-licensed adviser will provide a competitive quote within one business day.`,
+  },
+  {
+    slug: 'nz-tiny-home-communities-2026',
+    title: 'NZ Tiny Home Villages and Communities: Where to Live in 2026',
+    excerpt: 'Tiny home communities and villages are springing up across New Zealand. Here\'s where they are and what to know about living in a community.',
+    date: '2026-04-20',
+    readTime: '7 min read',
+    category: 'Guides',
+    image: '/images/tinyhome_insurance_2.jpg',
+    content: `The tiny home movement in New Zealand has matured from isolated owner-builders to organized communities and purpose-built villages. If you're considering joining a tiny home village or community, here's what\'s available, where they\'re located, and what to know about community living.
+
+## Active Tiny Home Communities in New Zealand (2026)
+
+### North Island
+
+**Tiny Home Village, Papamoa (Bay of Plenty)**
+A purpose-built village with around 40 tiny home plots, established in 2023. Site fees are approximately $200–$250/week, homes are owner-occupied, and the community includes shared facilities (community hall, garden plots).
+
+**Cohousing Developments, Auckland**
+Several cohousing initiatives in Auckland's fringe suburbs (Kumeu, Clevedon Valley, South) offer tiny home-scale options as part of co-living communities.
+
+**Rural Tiny Home Communities, Waikato**
+Scattered small communities of 3–8 tiny homes each have emerged on rural properties around Hamilton, Cambridge, and Te Awamutu, often built by groups of friends or families sharing a single large section.
+
+### South Island
+
+**Tiny Home Zone, Christchurch**
+A developing area in Hornby (southwest Christchurch) is zoning for tiny home development; several owners have built single homes on small sections.
+
+**Arrowtown and Wanaka Communities**
+Growing interest in tiny homes as secondary residences or permanent bases for remote workers, particularly in Otago tourism regions.
+
+**Nelson Tasman**
+Several informal tiny home communities have developed on rural land near Nelson, catering to artists, craft workers, and lifestyle-seekers.
+
+## What to Consider When Evaluating a Tiny Home Community
+
+### Tenure and Security
+Is the community on freehold land, leasehold, or licensed occupancy? Freehold ownership of your plot is ideal; leasehold or licensing arrangements offer less security but lower entry costs. For insurance purposes, understand whether you own the land or lease it — this affects your building insurance terms.
+
+### Body Corporate and Governance
+Does the community have a formal body corporate (registered under the Unit Titles Act), a residents' association, or informal management? Formal governance structures typically provide better long-term stability and clearer rights and obligations.
+
+### Site Fees and Services
+What are included in site fees (if any)? Are they for land only, or do they include maintenance of shared facilities, rates, water, power? How are fees set and revised? This affects your total cost of living and your budget for insurance.
+
+### Building Standards and Consent
+Did the village obtain a collective building consent, or are individual homes required to have building consent? This affects your insurability. Communities with collective consents or master planning documents are easier to insure than ad-hoc developments.
+
+### Insurance and Liability
+Does the community have collective public liability cover? What's your individual liability exposure? Understanding the community's risk management (what's insured collectively vs. individually) is crucial.
+
+## Insurance for Tiny Home Community Living
+
+For tiny home community residents:
+- **Building insurance:** Your individual home is your responsibility. Community shared structures (hall, facilities) are typically covered by the community's collective insurance.
+- **Contents insurance:** Your responsibility entirely.
+- **Public liability:** You're responsible for your home and any injury/damage from your property. The community is responsible for shared facilities.
+- **Landlord insurance (if renting):** If you rent your home within the community, you need landlord cover, which typically includes a community-specific endorsement for community living.
+
+When requesting insurance quotes, provide your adviser with details of the community's name, location, and whether it has a body corporate or formal governance structure. This helps your adviser assess risk appropriately.
+
+## The Future of Tiny Home Communities in NZ
+
+As of 2026, tiny home communities remain relatively rare in New Zealand compared to Australia or the US, but the trend is accelerating. Councils are increasingly supportive of higher-density residential development, and the cost-of-living crisis is driving interest in smaller, more affordable homes.
+
+Future growth is likely in:
+- Urban intensification on council-friendly sites
+- Purpose-built developments by developers and housing trusts
+- Co-housing models combining private dwellings with shared facilities
+- Rural lifestyle communities on larger properties
+
+If you're considering moving to or building in a tiny home community, consult with a specialist adviser early. Getting your insurance right from the start ensures you're properly protected and avoids complications later.`,
+  },
+  {
+    slug: 'nzta-rules-tiny-home-wheels-nz',
+    title: 'NZTA Road Rules for Tiny Homes on Wheels: Dimensions, CoF, and Permits',
+    excerpt: 'Towing a tiny home on wheels in NZ requires compliance with NZTA rules. Here\'s everything you need to know about dimensions, weights, permits, and requirements.',
+    date: '2026-04-22',
+    readTime: '8 min read',
+    category: 'THOW',
+    image: '/images/tinyhome_insurance_3.jpg',
+    content: `If you own or are planning to buy a tiny home on wheels (THOW), understanding New Zealand Transport Agency (NZTA) road rules is essential. These regulations govern dimensions, weight, Certificate of Fitness requirements, and towing compliance — and many are conditions of your insurance policy.
+
+## Legal Classification of THOWs
+
+Under New Zealand law, a tiny home on wheels is classified as a vehicle (specifically, a trailer) for road use purposes. This means it must comply with the Land Transport Rules and have:
+
+- A registration plate and current registration
+- A Warrant of Fitness (WoF) or Certificate of Fitness (CoF) depending on weight and specifications
+- Compliant towing connections
+- Compliance with dimension and weight limits
+
+## Dimension Limits
+
+The maximum dimensions for a THOW towing on NZ public roads are:
+
+- **Width:** 2.55 metres (including side mirrors or protrusions)
+- **Height:** 4.25 metres (from ground to highest point)
+- **Length:** 12.5 metres (total length of towing vehicle + THOW)
+- **Overhang:** Maximum of 60% of the towing vehicle's wheelbase at the rear
+
+If your THOW exceeds these dimensions, you must obtain an **overdimension permit** from the NZTA before towing. Overdimension permits specify approved routes, times of travel (often daylight hours only), and speed restrictions (usually 80 km/h maximum).
+
+Costs for overdimension permits are typically $100–$300 and are issued for 12-month periods.
+
+## Weight and Gross Vehicle Mass Rating (GVMR)
+
+Your THOW's weight determines CoF/WoF requirements:
+
+- **Under 3,500 kg unladen:** Requires a standard WoF (inspect as with any vehicle)
+- **3,500 kg–6,000 kg:** Requires a CoF (Certificate of Fitness, more rigorous than WoF)
+- **Over 6,000 kg:** Requires a CoF and may trigger additional restrictions
+
+The GVMR is the maximum weight the vehicle is designed to carry (unladen weight + payload). Never exceed the GVMR — this is illegal and will invalidate insurance.
+
+## Certificate of Fitness (CoF) and Warrant of Fitness (WoF)
+
+A **Warrant of Fitness (WoF)** is required for light vehicles (under ~3,500 kg) and is a standard roadworthiness inspection conducted at most mechanics and authorized testing stations. Cost: typically $80–$150. Frequency: every 6 months.
+
+A **Certificate of Fitness (CoF)** is required for heavier vehicles and is more rigorous. It's conducted by approved CoF inspectors (usually qualified mechanics at larger workshops) and covers structure, braking, coupling, tyres, lights, and overall structural integrity. Cost: typically $250–$450. Frequency: usually annually.
+
+Your THOW's CoF/WoF status is a condition of your insurance. If your THOW is towed without a valid CoF/WoF, your insurance may not cover damage that occurs during transit.
+
+## Towing Vehicle Requirements
+
+The vehicle towing your THOW must also have a current WoF and be properly registered. It must have adequate towing capacity (brakes that match the THOW's weight, engine power sufficient for hill-climbing when towing, and compliant towing connections).
+
+Using an undersized or inadequate towing vehicle is both illegal and a breach of your insurance conditions.
+
+## Speed and Driving Restrictions
+
+When towing a THOW, the maximum legal speed is 90 km/h on open roads and 50 km/h in built-up areas. Some insurance policies impose lower speed limits (e.g., 80 km/h). Check your policy for any speed restrictions.
+
+Certain routes may be restricted for large THOWs (e.g., no towing on Auckland's inner motorway loop). Check NZTA's website for any specific restrictions for your region.
+
+## Towing Procedure and Checklist
+
+Before towing your THOW:
+
+1. Ensure your THOW has a current WoF/CoF
+2. Ensure the towing vehicle has a current WoF
+3. Check coupling connections are compliant and secure
+4. Verify brakes on the THOW are functioning
+5. Confirm lights (brake lights, indicator, side lights) are working
+6. Ensure weight distribution is balanced
+7. Notify your insurer and confirm transit cover is active
+8. Comply with any overdimension permit conditions (time of day, route, speed)
+
+## Getting Your THOW CoF/WoF
+
+Most regional centres have approved CoF/WoF inspectors. Contact your local mechanic or search the NZTA website for authorized testing stations in your region. Book well in advance — inspectors may have waiting times of several weeks, particularly in popular regions.
+
+## Insurance and Compliance
+
+Your insurance policy requires compliance with all NZTA regulations as a condition of cover. Breaching these requirements (e.g., towing without a valid CoF, exceeding weight limits, towing with an unregistered vehicle) could result in claims being denied.
+
+When your THOW reaches the end of its usable life for the road (due to structural deterioration or damage that can't be cost-effectively repaired), it can no longer be legally towed. At that point, it would need to be de-registered and either demolished or relocated by crane/truck (outside the NZTA road rules).
+
+## Getting Advice
+
+Our advisers work with THOW owners across New Zealand and understand the NZTA compliance landscape. When you submit a quote request, let your adviser know your THOW's approximate weight, dimensions, and any overdimension permit requirements. This helps ensure your transit cover is appropriately structured.`,
+  },
+  {
+    slug: 'tiny-home-financing-mortgage-nz',
+    title: 'Financing a Tiny Home in NZ: Mortgages, Loans, and What Banks Will (and Won\'t) Do',
+    excerpt: 'Financing a tiny home is different from buying a conventional house. Here\'s what NZ banks and lenders will and won\'t do, and your options.',
+    date: '2026-04-25',
+    readTime: '7 min read',
+    category: 'Guides',
+    image: '/images/tinyhome_insurance_1.jpg',
+    content: `Financing a tiny home in New Zealand is more complex than buying a conventional house. Banks and traditional lenders have been slow to embrace tiny homes, leading to a fragmented lending landscape where your options depend heavily on the type of tiny home you're buying and your financial situation.
+
+## Why Banks Are Cautious About Tiny Home Lending
+
+Traditional lenders base lending decisions on several factors:
+
+1. **Property value and security:** Banks want the property to retain value in case they need to foreclose. Tiny homes, being non-standard, have lower resale value and less predictable market value.
+
+2. **Conventional valuation methods:** Banks use standard valuation formulas based on $/m² for conventional homes. Tiny homes often don't fit these formulas, making valuation difficult.
+
+3. **Building consent and code compliance:** Banks prefer properties with full building consent and Code of Compliance certificates. Many tiny homes, particularly owner-builds or homes built under the recent consent exemption, lack these formalities.
+
+4. **Perceived risk:** The tiny home market is still relatively new, and banks lack historical loan performance data for tiny home mortgages.
+
+The result is that mainstream banks (ASB, BNZ, Westpac, ANZ) typically decline tiny home mortgages or offer only limited lending.
+
+## What Lenders Will Finance
+
+### Traditional Fixed Foundation Tiny Homes (on freehold land)
+A conventionally built tiny home on a permanent foundation, with building consent and Code of Compliance, located on a residential section with clear title — this is most similar to a conventional property and most likely to attract traditional mortgage lending.
+
+**Lender options:** Major banks may consider these, particularly if the home is under 10 years old and the property is in an established residential area.
+
+**LVR (Loan-to-Value Ratio):** Typically 70–80% of property value (lower than conventional houses due to perceived higher risk).
+
+**Interest rates:** Usually 0.5–1.5% higher than conventional mortgages due to higher perceived risk.
+
+**Typical loan size:** $150,000–$250,000 depending on property value.
+
+### Tiny Homes in Established Villages
+A tiny home in a purpose-built village with formal governance (body corporate, master plan) may attract lending, as the community provides some assurance of property standards and resale value.
+
+**Lender options:** Some specialist lenders and credit unions may lend; traditional banks are usually cautious.
+
+**LVR:** Typically 60–75%.
+
+**Typical loan size:** $100,000–$200,000.
+
+### Tiny Homes on Wheels
+Traditional mortgage lending for THOWs is essentially non-existent. Banks will not lend on a property they consider mobile. However, some alternatives exist.
+
+## Financing Options for THOWs and Non-Standard Tiny Homes
+
+### 1. Specialist Lenders and Non-Bank Lenders
+Several specialist lenders (e.g., Harmoney, Squirrel, Sharesies) offer unsecured or secured loans for alternative housing, including tiny homes and THOWs.
+
+**Loan size:** Typically $25,000–$150,000.
+
+**Interest rates:** 8–15% depending on creditworthiness (significantly higher than mortgages).
+
+**Term:** Usually 5–7 years.
+
+**Advantage:** Will lend on THOWs and non-standard builds where banks won't.
+
+**Disadvantage:** Much higher interest rates than traditional mortgages.
+
+### 2. Credit Unions
+Some NZ credit unions (e.g., Kiwi Bank, local credit unions) offer personal loans or small mortgages for alternative housing.
+
+**Loan size:** Typically $20,000–$100,000.
+
+**Interest rates:** 5–10%.
+
+**Advantage:** Often more flexible than banks about property types.
+
+**Disadvantage:** Usually lower loan amounts and higher rates than bank mortgages.
+
+### 3. Owner-Builder Finance
+If you're building your own tiny home, some specialist lenders offer construction finance where you draw down funds as construction progresses.
+
+**Lender options:** Specialist construction lenders (e.g., some regional banks, non-bank lenders).
+
+**Interest rates:** Typically higher than standard mortgages (7–12%).
+
+**Advantage:** Allows you to build incrementally without large upfront costs.
+
+**Disadvantage:** You need to qualify based on your creditworthiness and income, not property security.
+
+### 4. Family Loans
+Many tiny home buyers use informal loans from family members, structured with legal documentation to protect both parties.
+
+**Terms:** Negotiated between parties; interest rates typically 0–5%.
+
+**Advantage:** Flexible terms, often lower interest rates.
+
+**Disadvantage:** Can create family tension if repayment becomes difficult.
+
+### 5. Combination Financing
+Many tiny home buyers combine financing sources: a small bank mortgage for a fixed foundation property, plus a personal loan from a non-bank lender, plus savings, plus a family loan.
+
+## The Insurance Connection
+
+When financing a tiny home, lenders typically require evidence of appropriate insurance. Your lender will require:
+
+- Building insurance for the full value of the home (as security for the loan)
+- Contents insurance (if you're also financing furniture/fittings)
+- Public liability insurance
+
+Getting insurance in place early (during the application process) helps secure financing approval. Work with a specialist adviser who understands both tiny home financing and insurance to ensure you're properly covered.
+
+## Getting Financing Advice
+
+For financing advice specific to tiny homes, speak with:
+
+- **Mortgage brokers** who specialize in alternative property types
+- **Credit union advisers** who may have more flexible lending criteria
+- **Non-bank lenders** who specifically market alternative housing finance
+- **Your specialist tiny home insurance adviser** — they understand the market and can often recommend lenders they've worked with
+
+Combining good financing with appropriate insurance protects your investment and ensures you're not exposing yourself to uninsured risk.`,
+  },
+  {
+    slug: 'healthy-homes-standards-tiny-home-nz',
+    title: 'The Healthy Homes Standards and Your Tiny Home: What Landlords Need to Know',
+    excerpt: 'If you rent out your tiny home, you must comply with the Healthy Homes Standards. Here\'s what they require and what they mean for landlords.',
+    date: '2026-04-27',
+    readTime: '6 min read',
+    category: 'Landlord',
+    image: '/images/tinyhome_insurance_2.jpg',
+    content: `The Healthy Homes Standards came into effect on 1 July 2023 for all rental properties in New Zealand. If you rent out your tiny home — to long-term tenants, seasonal renters, or Airbnb guests — you must comply with these standards. Non-compliance can result in fines up to $10,000, disputes with tenants, and insurance complications.
+
+## What Are the Healthy Homes Standards?
+
+The Healthy Homes Standards require rental properties to meet five specific criteria:
+
+### 1. Insulation
+The home must be insulated to a minimum R-value in the ceiling (R3.2 for most of NZ, R4.0 in colder regions like Southland and Central Otago) and underfloor (R1.3 for most of NZ, R1.9 in colder regions).
+
+For tiny homes, this often requires:
+- Blown-in ceiling insulation or batts
+- Underfloor insulation (often expensive if the home is suspended on blocks or a trailer chassis)
+
+**Cost to bring a non-compliant tiny home up to standard:** $2,000–$5,000 for a typical tiny home, more if structural modifications are needed.
+
+### 2. Ventilation
+The home must have adequate ventilation to remove moisture and condensation. This means:
+- Windows and doors must be able to open to allow cross-ventilation
+- Kitchens should have extractor fans venting to outside (not into the ceiling cavity)
+- Bathrooms must have extractor fans or a window that opens
+
+For tiny homes, this is usually achievable with relatively low cost (fans and ducting: $500–$1,500).
+
+### 3. Heating
+The home must have safe, functional heating that can heat the main living area to at least 18°C.
+
+Acceptable heating includes:
+- Heat pump (most common)
+- Solid fuel burner with flue
+- Built-in electric heater
+- Portable heater (if the home has no other heating)
+
+**Cost:** $2,000–$6,000 for a heat pump; $3,000–$8,000 for a solid fuel burner.
+
+### 4. Moisture and Drainage
+The home must be designed and maintained to prevent moisture problems. This includes:
+- No visible mold or mildew
+- Good drainage around the foundation (if on a foundation)
+- Proper guttering and downpipes directing water away from the building
+- No water ingress from leaks or rising damp
+
+This is often the most complex compliance area for tiny homes, particularly:
+- THOWs with poor sealing or ventilation
+- Container homes with condensation issues
+- Off-grid homes with poor guttering or drainage
+
+**Cost to remedy:** $1,000–$10,000+ depending on the severity of moisture issues.
+
+### 5. Draught Stopping
+The home must be draught-sealed to prevent excessive air infiltration and heat loss. This includes:
+- Gaps around windows and doors sealed
+- Gaps in floors and walls sealed
+- Weatherstripping or door seals in place
+
+**Cost:** $500–$2,000 for a typical tiny home.
+
+## Compliance Timeline
+
+- **1 July 2023:** Requirements take effect for all rental properties
+- **Existing rental properties:** 12 months to comply (so until 1 July 2024)
+- **New rentals from 1 July 2023:** Must be compliant when the tenancy begins
+
+If you bought a tiny home as a rental after 1 July 2024, you must comply before the tenancy begins.
+
+## What Happens If You Don't Comply?
+
+Non-compliance can result in:
+
+1. **Tenancy Tribunal disputes:** A tenant can raise a breach of the Healthy Homes Standards in the Tenancy Tribunal and seek remedies (rent reduction, compensation for discomfort, termination of tenancy).
+
+2. **Financial penalties:** Tenants can claim compensation for living in a non-compliant home (typically $50–$200/week depending on the severity).
+
+3. **Insurance complications:** If you make a claim on your landlord insurance and the property is found to be non-compliant, the insurer may:
+   - Reduce or deny the claim (if the damage is related to the non-compliance)
+   - Increase your premium
+   - Non-renew your policy
+
+4. **Regulatory fines:** While local councils don't actively enforce the standards, tenants can report non-compliance, and in extreme cases (e.g., homes with serious moisture/mold issues), enforcement action is possible.
+
+## Compliance for Tiny Homes
+
+For tiny homes, compliance is generally achievable but requires specific attention:
+
+### Fixed Foundation Tiny Homes
+Usually straightforward to comply. Ensure insulation is adequate, heating is installed, and ventilation is functional. Cost typically $3,000–$8,000 to bring a pre-2023 home up to standard.
+
+### THOWs
+More challenging due to the construction type. Key focus areas:
+- **Ventilation:** Ensure windows/doors function properly and extractor fans are installed.
+- **Heating:** Install a heat pump or approved heater if not present.
+- **Insulation:** Check ceiling and underfloor insulation; upgrading is often needed.
+- **Moisture:** Check for condensation issues; improve ventilation to address.
+- **Draught stopping:** Seal gaps around windows, doors, and vents.
+
+Cost for a THOW: $5,000–$15,000 depending on starting condition.
+
+### Off-Grid Tiny Homes
+Specific considerations:
+- Ensure solar/battery systems don't interfere with ventilation (don't block windows/vents)
+- Ensure any wood-fired heating complies with regulations (properly installed flue, not fire hazard)
+- Ensure moisture control (composting toilets, greywater systems) don't create moisture buildup
+
+## Getting Your Tiny Home Inspection
+
+Many councils have programs to help rental property owners understand compliance requirements. Some offer free or low-cost assessments. Contact your local council's building and housing department to ask about Healthy Homes Standard assessment services in your area.
+
+Alternatively, hire an independent building inspector (cost: typically $500–$1,000) to assess your tiny home against the standards and provide a report on what's needed to comply.
+
+## Insurance and Compliance
+
+When you apply for landlord insurance, disclose the compliance status of your tiny home:
+
+- **Compliant:** Straightforward underwriting.
+- **Non-compliant but being brought to compliance:** Your insurer may agree to insure on condition that work is completed within a specified timeframe.
+- **Non-compliant with no plan to comply:** Insurer may decline cover or apply premium loadings.
+
+Once compliant, ensure you maintain compliance (e.g., if you replace a heater, ensure the replacement meets standards; if you perform maintenance, don't inadvertently create new moisture issues).`,
+  },
+  {
+    slug: 'best-regions-tiny-home-living-nz',
+    title: 'Best Regions in New Zealand for Tiny Home Living in 2026',
+    excerpt: 'Looking for the ideal region to plant your tiny home roots? Here\'s where tiny home living thrives in New Zealand in 2026.',
+    date: '2026-04-29',
+    readTime: '7 min read',
+    category: 'Guides',
+    image: '/images/tinyhome_insurance_3.jpg',
+    content: `Choosing a region for your tiny home is one of the biggest lifestyle decisions you'll make. Climate, community, access to services, council attitude, and cost of living all factor in. Here's where tiny home living is thriving in New Zealand in 2026.
+
+## Why Region Matters for Tiny Homes
+
+Beyond the obvious lifestyle reasons, region affects:
+
+- **Insurance costs:** Rural areas often have higher insurance premiums (due to distance from emergency services), while urban areas may have higher theft risk. Regions with extreme weather (Southland, West Coast) may incur storm/flood loadings.
+
+- **Council support:** Some councils actively encourage tiny home development; others are more resistant. This affects building consent requirements and future development potential.
+
+- **Community and market:** Some regions have established tiny home communities; others have just one or two homes scattered across the landscape.
+
+- **Resale value:** Tiny homes in established communities hold value better than isolated owner-builds.
+
+- **Financing:** Lenders are more willing to finance properties in established residential areas and recognized communities.
+
+## Top Regions for Tiny Home Living
+
+### 1. Bay of Plenty (Papamoa)
+**Why it's good for tiny homes:**
+- Established tiny home village (Papamoa Tiny Home Village) with 40+ homes
+- Growing reputation as a tiny home hub
+- Mild climate, good for off-grid living
+- Active community with established infrastructure
+
+**Challenges:**
+- Popular with retirees; potentially narrow age demographic
+- Relatively high insurance costs for the region due to coastal exposure
+
+**Insurance considerations:** Moderate premiums ($800–$1,200/year for building cover), coastal wind/storm loading applies.
+
+### 2. Waikato Region (Hamilton, Cambridge, Te Awamutu)
+**Why it's good for tiny homes:**
+- Affordable land prices compared to Auckland and Bay of Plenty
+- Supportive council planning framework
+- Multiple informal tiny home communities
+- Good agricultural infrastructure and services
+
+**Challenges:**
+- No large organized villages yet; mostly scattered communities
+- Rural character may limit market appeal for resale
+
+**Insurance considerations:** Lower premiums ($700–$1,000/year) due to lower rebuild costs and lower perceived risk in rural areas.
+
+### 3. Waikele / South Auckland
+**Why it's good for tiny homes:**
+- Proximity to Auckland but more affordable
+- Some council-supported higher-density housing initiatives
+- Good services and infrastructure
+- Growing market demand as housing costs rise
+
+**Challenges:**
+- Still quite expensive by tiny home standards
+- Less established tiny home culture
+
+**Insurance considerations:** Higher premiums ($1,000–$1,400/year) due to urban rebuild costs.
+
+### 4. Matamata and Rural King Country
+**Why it's good for tiny homes:**
+- Affordable land and lifestyle block options
+- Strong rural community support
+- Good internet infrastructure (important for remote workers)
+- Beautiful rural scenery
+
+**Challenges:**
+- Smaller towns with limited services
+- Lower resale appeal
+
+**Insurance considerations:** Moderate premiums ($700–$1,100/year), rural loading may apply for very remote locations.
+
+### 5. Whanganui
+**Why it's good for tiny homes:**
+- Thriving arts community and creative culture
+- Very affordable land prices
+- Council supportive of alternative housing and creative ventures
+- Growing tiny home interest
+
+**Challenges:**
+- Smaller town (population ~41,000), fewer services
+- Cooler, wetter climate (heating/moisture compliance important for landlords)
+
+**Insurance considerations:** Lower premiums ($700–$950/year), but higher premiums for landlord cover due to Healthy Homes compliance costs.
+
+### 6. Nelson / Tasman
+**Why it's good for tiny homes:**
+- Large established tiny home and alternative housing community
+- Council supportive of alternative housing
+- Beautiful natural environment
+- Active arts and creative community
+
+**Challenges:**
+- Growing population is driving up land prices
+- Popular tourist area; can have seasonal rental complexity
+
+**Insurance considerations:** Moderate to high premiums ($900–$1,300/year) due to natural hazard exposure (forest fire risk, flooding in some areas).
+
+### 7. Christchurch / Canterbury
+**Why it's good for tiny homes:**
+- Affordable land outside the city
+- Post-earthquake rebuilding has embraced some alternative housing concepts
+- Council supportive of intensification and alternative housing
+- Good economic growth and employment
+
+**Challenges:**
+- EQC natural disaster insurance more expensive due to earthquake risk
+- Growing housing market is driving up land prices
+
+**Insurance considerations:** Moderate to high premiums ($800–$1,250/year), earthquake loading is significant.
+
+### 8. Otago (Arrowtown, Wanaka, Oamaru)
+**Why it's good for tiny homes:**
+- Stunning natural scenery
+- Growing remote worker and digital nomad population
+- More affordable than North Island tourist regions
+- Strong community-focused culture
+
+**Challenges:**
+- Colder climate (heating compliance important, higher costs)
+- More remote regions may have infrastructure challenges
+- Smaller job market unless you're remote-working
+
+**Insurance considerations:** Higher premiums ($900–$1,400/year) due to cold climate (heating requirements) and geographic remoteness.
+
+## Regions to Approach with Caution
+
+### Auckland and Wellington
+Beautiful cities with strong markets, but tiny home living is less established and land prices are very high. Unless you're urban-focused and have significant capital, other regions offer better tiny home value.
+
+### Southland and West Coast
+Beautiful regions but with high insurance costs due to extreme weather exposure, distance from services, and lower resale values. If you're off-grid and self-sufficient, these are livable; otherwise, expect high insurance premiums and logistics costs.
+
+## Choosing Your Region
+
+Consider:
+
+1. **Lifestyle fit:** Where do you want to spend your time? Beach, mountains, rural, arts community?
+2. **Economic viability:** If you work remotely, location matters less. If you work locally, will you find employment?
+3. **Community:** Is there an established tiny home community or like-minded people in the region?
+4. **Climate:** Affects heating costs, insulation requirements, and resale appeal.
+5. **Insurance and costs:** Get preliminary insurance quotes for regions you're considering.
+6. **Long-term viability:** Do you see yourself (and the property) thriving long-term in the region?
+
+No single region is universally "best" — the best region for you depends on your priorities and lifestyle. Start with the regions above that align with your values, then research specific locations and communities within those regions.`,
+  },
+  {
+    slug: 'nz-tiny-home-building-regulations-2026',
+    title: 'Building a Tiny Home in NZ: The Complete 2026 Regulations Guide',
+    excerpt: 'Planning to build your own tiny home in NZ? Here\'s the complete guide to building consent, the 2026 exemption, and building standards compliance.',
+    date: '2026-05-02',
+    readTime: '9 min read',
+    category: 'Guides',
+    image: '/images/tinyhome_insurance_1.jpg',
+    content: `Building your own tiny home in New Zealand is an achievable dream, but navigating the regulatory landscape — building consent, Building Code compliance, Licensed Building Practitioner requirements — is crucial. Here's the complete guide to what's required in 2026.
+
+## The Building Consent Framework
+
+In New Zealand, most new residential buildings require a building consent from your local council before construction begins. A building consent is permission from council to proceed with construction, based on your plans demonstrating compliance with the Building Code.
+
+After construction, the council issues a Code Compliance Certificate (CCC) — certification that the completed home meets Building Code standards.
+
+## The January 2026 Small Dwelling Exemption
+
+From 1 January 2026, certain small dwellings (homes under 70m²) no longer require building consent. This is significant for tiny home builders, but it comes with specific conditions.
+
+### What the Exemption Covers
+
+You can build without building consent if:
+
+1. **Size:** The home is under 70m² gross floor area
+2. **Structure:** Single-storey and detached (not joined to another building)
+3. **Licensed Building Practitioner involvement:** The home must be designed and/or built by Licensed Building Practitioners (LBPs), and their involvement must be documented
+4. **Council notification:** The council must be notified before construction begins (a notification, not a consent)
+5. **Building Code compliance:** The design must demonstrably comply with the Building Code
+
+### Critical Point: LBP Involvement
+
+The exemption is not a free pass for owner-builders. Licensed Building Practitioners must be involved in "restricted building work" — work that requires LBP supervision because of structural or safety significance.
+
+Restricted building work includes:
+- Site preparation and foundation
+- Structural framing
+- Weathertightness systems (exterior walls, roof, windows)
+- Electrical and plumbing installation
+
+An owner-builder can do non-restricted work (interior finishing, landscaping, etc.) but must engage LBPs for the restricted categories.
+
+### Documentation Required for the Exemption
+
+If you build under the exemption, keep:
+
+1. **Council notification acknowledgement** — proof that you notified council before starting
+2. **LBP Certificates of Work** — issued by LBPs at completion of their work
+3. **Design documentation** — plans showing Building Code compliance
+4. **Engineering assessments** — if there's anything non-standard in your design
+5. **Construction photographs** — documenting framing, insulation, weatherproofing before being enclosed
+6. **Material specifications** — proof of materials used and their compliance
+
+This documentation is essential for insurance purposes (see insurance implications below).
+
+## What Still Requires Consent
+
+The exemption does not apply to:
+
+- **Homes on wheels** — not considered "buildings" under the Building Act; subject to NZTA vehicle regulations instead
+- **Homes built by owner-builders without LBP involvement** — you must engage LBPs for restricted work
+- **Homes over 70m²** — standard consent required
+- **Multi-storey homes** — exemption is single-storey only
+- **Homes attached to other buildings** — exemption is for detached homes only
+- **Homes intended for commercial use** — exemption is residential only (short-stay rental may complicate this)
+
+## Building Code Compliance
+
+Whether you build under the exemption or with full consent, your home must comply with the Building Code — New Zealand's minimum standards for building safety and durability.
+
+Key Building Code requirements for tiny homes:
+
+### 1. Structure and Safety
+Your home must be structurally sound and able to withstand:
+- Wind loads appropriate to your region
+- Snow loads in alpine regions
+- Earthquake forces (varies by region; NZ has significant seismic risk)
+
+Compliance typically requires:
+- Engineered design for wind and seismic forces (unless you use standard compliant designs)
+- Appropriate foundation design for your soil type
+- Proper connections and bracing throughout the structure
+
+### 2. Moisture and Durability
+Your home must be designed to manage moisture and not rot or deteriorate prematurely:
+- External surfaces must shed water
+- Interior moisture must be managed through ventilation
+- No trapped water in cavities
+- Durable materials and construction methods
+
+For tiny homes, this often means:
+- High-quality exterior sealing and waterproofing
+- Adequate ventilation to prevent condensation (especially in compact spaces)
+- Durable materials throughout (not cheap finishes that will fail in 10 years)
+
+### 3. Fire Safety
+Your home must have:
+- Fire-resistant materials in critical areas
+- Adequate exits and emergency access
+- Smoke alarms (now hardwired with battery backup in rentals)
+- No unprotected openings between the home and adjacent buildings (if in a multi-unit setting)
+
+For tiny homes, the compact nature can increase fire risk due to limited evacuation options. Your design must account for this.
+
+### 4. Accessibility
+If your home is multi-storey or has complex layout, you may need:
+- Level entry or ramp access
+- Doors of adequate width
+- Accessible bathroom and kitchen
+
+Single-storey tiny homes typically comply more easily with accessibility standards.
+
+### 5. Health and Safety Standards (Healthy Homes)
+If your tiny home will be a rental, it must meet Healthy Homes Standards:
+- Insulation to specified R-values
+- Heating to maintain 18°C
+- Adequate ventilation
+- Moisture control
+- Draught stopping
+
+These standards should be designed into the home during construction, not retrofitted later.
+
+## Building Consent Process (For Homes Over 70m²)
+
+If your tiny home exceeds 70m² or doesn't meet exemption criteria:
+
+1. **Prepare plans** — engage an architect or designer to produce plans showing Building Code compliance
+2. **Submit to council** — lodge consent application with council building control
+3. **Council assessment** — typically 20 working days; council reviews and either grants consent or asks for changes
+4. **Consent issued** — you can now proceed with construction
+5. **Council inspections** — council inspects at key stages (foundation, framing, weathertightness, final)
+6. **Code Compliance Certificate issued** — after final inspection, council issues CCC certifying completion to Building Code standard
+
+**Cost of consent process:** Typically $1,000–$3,000 in council fees, plus design and engineering costs ($2,000–$8,000).
+
+## Licensed Building Practitioners
+
+If your home falls under the exemption or requires consent, you'll need to engage Licensed Building Practitioners for restricted building work.
+
+LBP requirements:
+- Must be registered with the Building Practitioners Board
+- Must hold a license for their trade (carpentry, electrical, plumbing, etc.)
+- Must sign off on their completed work with a Certificate of Work
+- Can be held professionally liable for defective work
+
+Cost of engaging LBPs varies; typical costs for a 50m² tiny home might be:
+- Carpentry (framing, weatherproofing): $30,000–$50,000
+- Electrical: $3,000–$6,000
+- Plumbing: $3,000–$6,000
+
+## DIY vs. LBP: What You Can Do Yourself
+
+You can do non-restricted building work yourself:
+- Interior finishing (drywall, painting, tiling)
+- Landscaping and exterior work (not structural)
+- Decking and external features (non-structural)
+- Plumbing and electrical work if you have relevant qualifications
+
+You must engage LBPs for:
+- Foundation design and installation
+- Structural framing and connections
+- Weatherproofing systems
+- Electrical installation (unless you're a licensed electrician)
+- Plumbing installation (unless you're a licensed plumber)
+
+## Insurance Implications
+
+Building under the exemption or with consent affects your insurance:
+
+- **Home built with CCC:** Easiest to insure. Mainstream insurers will consider these with standard underwriting.
+- **Home built under exemption with full LBP documentation:** Specialist insurers will consider these; some mainstream insurers will, others won't.
+- **DIY-built home without LBP involvement:** Difficult to insure. Only specialist insurers consider these, and they require extensive documentation.
+
+## Getting Help
+
+Before you build, consider:
+
+1. **Engaging a building consultant or architect** — they can advise on exemption eligibility and Building Code compliance strategy ($1,000–$3,000 initial consultation)
+2. **Contacting your local council** — they can clarify exemption criteria and consent requirements for your specific project
+3. **Engaging a surveyor** — to assess your site and advise on foundation requirements ($800–$1,500)
+4. **Consulting a specialist tiny home insurance adviser** — early in design, to understand insurance implications and plan accordingly
+
+The investment in professional advice upfront saves money and headaches later. Building without proper guidance is risky — you may end up with a home that can't be insured, can't be sold, or doesn't meet Building Code standards.`,
+  },
+  {
+    slug: 'tiny-home-total-loss-claim-nz',
+    title: 'What Happens When Your Tiny Home Is a Total Loss? A Guide to NZ Insurance Claims',
+    excerpt: 'If your tiny home is destroyed by fire or disaster, how does the insurance claim process work? Here\'s what to expect with a total loss claim in New Zealand.',
+    date: '2026-05-03',
+    readTime: '7 min read',
+    category: 'Guides',
+    image: '/images/tinyhome_insurance_2.jpg',
+    content: `A total loss claim on a tiny home — where damage is so extensive that rebuilding is economically infeasible — is a traumatic situation. Understanding the insurance process, your rights, and what to expect can help you navigate the aftermath.
+
+## What Constitutes a "Total Loss"
+
+An insurer declares a home a total loss when the estimated cost of repair exceeds a certain percentage of the sum insured (typically 70–80%). At this point, it's economically more sensible to rebuild from scratch than to repair the damaged home.
+
+For a tiny home insured for $250,000, if repair costs exceed $175,000–$200,000, the insurer will likely declare total loss.
+
+## Immediately After the Damage
+
+### Step 1: Ensure Safety and Preserve Evidence
+
+- Evacuate and ensure all people and pets are safe
+- Call emergency services if anyone is injured or there's ongoing hazard
+- Once safe, try to prevent further damage (e.g., tarp leaking roof to prevent water damage)
+- Don't remove or dispose of damaged items or wreckage without insurer permission
+- Take photographs of the damage (for evidence)
+
+### Step 2: Notify Your Insurer
+
+- Contact your insurer within 48 hours of the damage (check your policy wording for notification requirements)
+- Provide basic details: what happened, date, location, people/pets affected
+- The insurer will assign a claims manager and may arrange a loss adjuster
+
+### Step 3: Cooperation and Assessment
+
+The insurer will:
+- Arrange for a loss adjuster to inspect the home
+- Request documentation: policy details, inventory of contents (if contents claim), proof of sum insured calculation, photographs
+- Assess whether the claim falls within coverage (is the damage caused by a covered peril?)
+
+You should:
+- Cooperate fully with the loss adjuster
+- Provide all requested documentation
+- Keep records of all communication with the insurer
+
+## The Loss Adjuster's Role
+
+A loss adjuster is an independent professional appointed by the insurer to assess the damage. They will:
+
+- Inspect the home and damage
+- Estimate repair cost
+- Determine if the claim is a total loss
+- Identify whether the damage is caused by a covered peril
+- Recommend whether coverage should be accepted or denied
+
+The loss adjuster's assessment is not binding on the insurer, but it carries significant weight.
+
+## Total Loss Assessment and Settlement
+
+### How the Insurer Values a Total Loss
+
+For a total loss, the insurer typically uses one of two methods:
+
+**1. Agreed Value**
+If your policy specifies an "agreed value" (you and the insurer agreed on a specific sum insured at policy inception), the insurer pays the agreed value (less any excess and deductibles) without needing to prove the actual replacement cost.
+
+**2. Indemnity/Assessed Value**
+If your policy is indemnity-based, the insurer assesses the actual cash value of the home at the time of loss. This accounts for depreciation, age, and condition. The insurer typically deducts for:
+- Depreciation (age of home, wear and tear)
+- Betterment (new components being better than what was destroyed)
+- Salvage value (value of remaining materials)
+
+**Example:** Your tiny home was insured for $250,000 replacement cost. After damage, the loss adjuster determines:
+- Actual replacement cost: $280,000
+- But depreciation (home is 15 years old): -$30,000
+- Assessed value: $250,000
+- Insurer pays: $250,000 less excess
+
+### Negotiating the Assessment
+
+If you disagree with the insurer's total loss assessment:
+
+1. **Request a detailed explanation** — ask the insurer to provide the loss adjuster's full report and the assumptions used in valuation
+2. **Obtain a second opinion** — commission an independent quantity surveyor to assess replacement cost ($1,500–$3,000)
+3. **Provide additional evidence** — if you have recent invoices, specifications, or documentation showing the home's condition or value, provide this
+4. **Dispute formally** — if you can't reach agreement, you have the right to lodge a formal dispute with the Disputes Resolution Scheme (free up to a point; beyond that, costs apply)
+
+## Cash Settlement vs. Reinstatement
+
+### Cash Settlement
+The insurer pays you cash (the agreed or assessed value) and you're responsible for rebuilding or finding alternative accommodation. You keep any unspent funds.
+
+**Advantages:** Flexibility, you can rebuild however you choose, or use the money for alternative purposes.
+
+**Disadvantages:** Cash settlements are usually subject to income tax (though home insurance payouts are generally not); you bear the risk of building cost inflation.
+
+### Reinstatement
+The insurer arranges and pays for repairs/rebuilding directly. You don't receive cash but instead get your home (or an equivalent replacement) rebuilt.
+
+**Advantages:** No cash management required, insurer bears inflation risk, guaranteed completion.
+
+**Disadvantages:** Limited control over the rebuild; must use approved builders; slower process.
+
+Most tiny home total losses are settled via cash settlement, as mainstream insurers may not understand tiny home construction well enough to manage the rebuild.
+
+## Contents Claim Process
+
+If your contents were also damaged:
+
+1. **Prepare a detailed inventory** — list all contents with approximate values. Use receipts, photos, or warranties if available.
+2. **Submit to insurer** — provide the inventory and any supporting evidence (credit card statements showing purchases, etc.)
+3. **Insurer assesses** — determines which items are covered and their value
+4. **Settlement** — insurer pays for covered items (usually replacement-as-new value if that's your policy type)
+
+For high-value items (jewelry, electronics, musical instruments), the insurer may require supporting documentation or photos.
+
+## Tax and Financial Implications
+
+Insurance payouts for damaged homes are generally not taxable (no income tax on the payout). However:
+
+- **Income tax:** If you were renting out the tiny home and claiming rental income tax deductions, the insurance payout may affect your tax situation. Consult a tax accountant.
+- **GST:** If the sum insured is "plus GST" in your policy, the payout includes GST, which can be reclaimed if you're a GST-registered business.
+- **Mortgage/loan implications:** If you have a mortgage or loan against the property, the insurer will require that any payout be used to discharge the debt first.
+
+## Loss of Use and Additional Living Expenses
+
+If your policy includes loss of use (alternative accommodation) cover:
+
+- Claim for the cost of temporary accommodation while rebuilding
+- Provide receipts (rental agreements, hotel bookings, campground invoices)
+- Keep records of all additional expenses (meals, transport, storage if contents are removed)
+- The insurer will reimburse up to the policy limit
+
+## After Settlement: Moving Forward
+
+After receiving the settlement (whether cash or reinstatement completion):
+
+1. **Understand your tax obligations** — consult an accountant about any tax implications
+2. **Plan your next steps** — rebuild, relocate, or move on
+3. **Update your insurance** — if you're rebuilding, arrange new insurance during construction
+4. **Keep records** — retain all documentation from the claim process for future reference and potential disputes
+
+## Disputes and Escalation
+
+If you disagree with the insurer's settlement offer:
+
+1. **Lodge a formal complaint** — write to the insurer's complaints manager, detailing your concerns
+2. **Allow time for response** — the insurer has 20 working days to respond to a complaint
+3. **Contact the Disputes Resolution Scheme** — if you're unsatisfied, contact the Disputes Resolution Service (DRS) or Financial Complaints Scheme (FCS) — complaints are free up to a point
+4. **Seek legal advice** — if the claim amount is significant, consulting a lawyer specializing in insurance disputes may be justified
+
+Most insurance disputes are resolved through escalation to the DRS, but unresolved major disputes may require small claims or full litigation (expensive and time-consuming).
+
+## Lessons for the Future
+
+After experiencing a total loss:
+
+- **Maintain documentation:** Keep photos, invoices, and specifications of your rebuilt home, so future insurance claims are easier
+- **Review insurance annually:** Ensure your sum insured keeps pace with rebuild costs (inflation increases costs every year)
+- **Regular inspections:** Some insurers offer premium reductions for regular home inspections and maintenance documentation
+- **Build resilience:** Consider adding resilience features (fire-resistant materials, backup power, multiple evacuation routes) when rebuilding`,
+  },
 ];
