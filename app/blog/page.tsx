@@ -3,41 +3,84 @@ import { blogPosts } from '../../data/blog-posts';
 
 export const metadata = {
   title: 'Tiny Home Insurance Blog & Guides | TinyHomeInsurance.co.nz',
-  description: 'Expert guides on tiny home insurance in NZ — covering THOWs, off-grid living, container homes, and more.',
+  description: 'Expert guides on tiny home insurance in NZ — covering tiny houses on wheels, off-grid living, container homes, and more.',
+};
+
+const categoryColours: Record<string, string> = {
+  Guides: 'bg-blue-100 text-blue-800',
+  THOW: 'bg-amber-100 text-amber-800',
+  'Off-Grid': 'bg-green-100 text-green-800',
+  Landlord: 'bg-purple-100 text-purple-800',
+  'Container Homes': 'bg-slate-100 text-slate-800',
+  Liability: 'bg-red-100 text-red-800',
 };
 
 export default function BlogPage() {
   return (
-    <div className="bg-stone-50 min-h-screen py-12">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-12">
-          <h1 className="text-4xl font-extrabold text-stone-900 mb-4">Tiny Home Insurance Guides</h1>
-          <p className="text-xl text-stone-600 max-w-2xl mx-auto">
-            Expert articles on tiny home insurance in New Zealand — from THOW cover to off-grid systems and everything in between.
+    <>
+      {/* ── HERO ─────────────────────────────────────────────────── */}
+      <section
+        className="relative py-24 text-white overflow-hidden"
+        style={{
+          backgroundImage: `linear-gradient(to bottom right, rgba(5,40,15,0.78) 0%, rgba(10,55,25,0.72) 50%, rgba(0,25,8,0.85) 100%), url('https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1920&q=80')`,
+          backgroundSize: 'cover',
+          backgroundPosition: 'center 35%',
+        }}
+      >
+        <div className="absolute inset-0 opacity-[0.12]"
+          style={{ backgroundImage: 'url("data:image/svg+xml,%3Csvg viewBox=\'0 0 200 200\' xmlns=\'http://www.w3.org/2000/svg\'%3E%3Cfilter id=\'n\'%3E%3CfeTurbulence type=\'fractalNoise\' baseFrequency=\'0.65\' numOctaves=\'3\' stitchTiles=\'stitch\'/%3E%3C/filter%3E%3Crect width=\'100%25\' height=\'100%25\' filter=\'url(%23n)\' opacity=\'1\'/%3E%3C/svg%3E")', backgroundSize: '150px' }}
+        />
+        <div className="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <div className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm border border-white/20 rounded-full px-4 py-1.5 text-green-200 text-sm font-semibold mb-6">
+            🌿 Tiny Home Insurance · Expert Guides
+          </div>
+          <h1 className="text-4xl md:text-5xl font-extrabold mb-5 leading-tight">
+            NZ Tiny Home Insurance<br /><span className="text-green-300">Guides &amp; Resources</span>
+          </h1>
+          <p className="text-xl text-stone-200 max-w-2xl mx-auto leading-relaxed">
+            Expert articles on tiny home insurance in New Zealand — from tiny houses on wheels to off-grid systems and everything in between.
           </p>
         </div>
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {blogPosts.map(post => (
-            <Link key={post.slug} href={`/blog/${post.slug}/`}
-              className="bg-white rounded-xl border border-stone-200 hover:border-brand-400 hover:shadow-md transition group overflow-hidden flex flex-col">
-              <div className="bg-gradient-to-br from-brand-800 to-stone-800 h-36 flex items-center justify-center text-5xl">
-                {post.category === 'THOW' ? '🚛' : post.category === 'Off-Grid' ? '☀️' : post.category === 'Landlord' ? '🔑' : '🏠'}
-              </div>
-              <div className="p-6 flex flex-col flex-1">
-                <div className="flex items-center gap-3 mb-3">
-                  <span className="text-xs font-bold uppercase tracking-wide text-brand-700 bg-brand-50 px-2 py-0.5 rounded">{post.category}</span>
-                  <span className="text-xs text-stone-500">{post.readTime}</span>
-                </div>
-                <h2 className="font-bold text-stone-900 text-lg mb-2 group-hover:text-brand-700 transition leading-snug flex-1">
-                  {post.title}
-                </h2>
-                <p className="text-stone-600 text-sm leading-relaxed line-clamp-3">{post.excerpt}</p>
-                <div className="mt-4 text-brand-700 font-semibold text-sm">Read more →</div>
-              </div>
-            </Link>
-          ))}
+        <div className="absolute bottom-0 left-0 right-0 h-16 bg-gradient-to-t from-stone-50 to-transparent" />
+      </section>
+
+      {/* ── POSTS GRID ───────────────────────────────────────────── */}
+      <section className="bg-stone-50 py-16">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-7">
+            {blogPosts.map(post => {
+              const catColour = categoryColours[post.category] || 'bg-stone-100 text-stone-700';
+              return (
+                <Link key={post.slug} href={`/blog/${post.slug}/`}
+                  className="bg-white rounded-2xl border border-stone-200 hover:border-green-400 hover:shadow-lg transition-all duration-300 group overflow-hidden flex flex-col">
+                  {/* Post image */}
+                  <div
+                    className="h-48 w-full flex-shrink-0 overflow-hidden"
+                    style={{
+                      backgroundImage: `linear-gradient(to bottom, transparent 50%, rgba(0,0,0,0.5) 100%), url('${post.image}')`,
+                      backgroundSize: 'cover',
+                      backgroundPosition: 'center',
+                    }}
+                  />
+                  <div className="p-6 flex flex-col flex-1">
+                    <div className="flex items-center gap-3 mb-3">
+                      <span className={`text-xs font-bold uppercase tracking-wide px-2.5 py-1 rounded-full ${catColour}`}>{post.category}</span>
+                      <span className="text-xs text-stone-400">{post.readTime}</span>
+                    </div>
+                    <h2 className="font-bold text-stone-900 text-lg mb-2 group-hover:text-green-700 transition leading-snug flex-1">
+                      {post.title}
+                    </h2>
+                    <p className="text-stone-500 text-sm leading-relaxed line-clamp-3 mb-4">{post.excerpt}</p>
+                    <div className="mt-auto flex items-center gap-1 text-green-700 font-semibold text-sm group-hover:text-green-600 transition">
+                      Read guide <span className="group-hover:translate-x-0.5 transition-transform">→</span>
+                    </div>
+                  </div>
+                </Link>
+              );
+            })}
+          </div>
         </div>
-      </div>
-    </div>
+      </section>
+    </>
   );
 }

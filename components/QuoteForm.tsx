@@ -11,7 +11,7 @@ export default function QuoteForm({ variant = 'compact' }: QuoteFormProps) {
   const handleSubmit = () => setSubmitting(true);
 
   const homeTypes = [
-    ['thow', 'Tiny House on Wheels (THOW)'],
+    ['thow', 'Tiny House on Wheels'],
     ['fixed', 'Fixed Foundation Tiny Home'],
     ['container', 'Container Home'],
     ['off-grid-cabin', 'Off-Grid Cabin'],
@@ -38,46 +38,67 @@ export default function QuoteForm({ variant = 'compact' }: QuoteFormProps) {
 
   if (variant === 'full') {
     return (
-      <section className="bg-gradient-to-r from-brand-700 to-brand-800 py-16">
+      <section className="bg-gradient-to-r from-stone-800 to-stone-900 py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="text-white">
-              <h2 className="text-3xl md:text-4xl font-bold mb-4">Ready to Protect Your Tiny Home?</h2>
-              <p className="text-lg text-brand-100 mb-6">
-                Get specialist quotes from NZ-licensed insurance advisers within one business day — free, no obligation.
+              <span className="text-green-400 font-semibold text-sm tracking-widest uppercase">Get Covered</span>
+              <h2 className="text-3xl md:text-4xl font-bold mt-3 mb-4">Ready to Protect Your Tiny Home?</h2>
+              <p className="text-lg text-stone-300 mb-8 leading-relaxed">
+                We compare insurers and find you the best suited policy for your tiny home. NZ-licensed specialist advisers respond within one business day.
               </p>
-              <ul className="space-y-3 text-brand-100">
-                {['Free, no-obligation quotes', 'Specialist tiny home advisers', 'Covers THOWs, containers & off-grid', '1 business day response'].map(f => (
-                  <li key={f} className="flex items-center gap-2">
-                    <span className="w-5 h-5 rounded-full bg-white/20 flex items-center justify-center text-xs font-bold">✓</span>
-                    {f}
+              <ul className="space-y-4 text-stone-300">
+                {[
+                  { icon: '✓', text: 'No-obligation quotes compared for you' },
+                  { icon: '✓', text: 'Specialist tiny home advisers only' },
+                  { icon: '✓', text: 'Covers tiny homes on wheels, containers &amp; off-grid' },
+                  { icon: '✓', text: 'Response within 1 business day' },
+                ].map(f => (
+                  <li key={f.text} className="flex items-start gap-3">
+                    <span className="w-6 h-6 rounded-full bg-green-600 flex items-center justify-center text-xs font-bold text-white flex-shrink-0 mt-0.5">✓</span>
+                    <span dangerouslySetInnerHTML={{ __html: f.text }} />
                   </li>
                 ))}
               </ul>
+              <div className="mt-8 flex items-center gap-6 text-sm text-stone-400">
+                <div className="flex items-center gap-2">
+                  <span className="text-xl">🔒</span>
+                  <span>256-bit SSL</span>
+                </div>
+                <div className="flex items-center gap-2">
+                  <span className="text-xl">🚫</span>
+                  <span>No Spam</span>
+                </div>
+                <div className="flex items-center gap-2">
+                  <span className="text-xl">⚡</span>
+                  <span>1 Business Day</span>
+                </div>
+              </div>
             </div>
             <form action={SITE.workerUrl} method="POST" onSubmit={handleSubmit}
-              className="bg-white rounded-2xl p-8 shadow-xl">
+              className="bg-white rounded-2xl p-8 shadow-2xl border border-stone-200">
               {hiddenFields}
+              <h3 className="text-xl font-bold text-stone-900 mb-5">Get Your Specialist Quote</h3>
               <div className="space-y-4">
                 <div>
                   <label className="block text-sm font-semibold text-gray-900 mb-1">Full Name</label>
                   <input type="text" name="name" required placeholder="Your name"
-                    className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-brand-600 focus:border-transparent" />
+                    className="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-600 focus:border-transparent" />
                 </div>
                 <div>
                   <label className="block text-sm font-semibold text-gray-900 mb-1">Email</label>
                   <input type="email" name="email" required placeholder="your@email.com"
-                    className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-brand-600 focus:border-transparent" />
+                    className="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-600 focus:border-transparent" />
                 </div>
                 <div>
                   <label className="block text-sm font-semibold text-gray-900 mb-1">Phone</label>
                   <input type="tel" name="phone" required placeholder="09 XXX XXXX"
-                    className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-brand-600 focus:border-transparent" />
+                    className="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-600 focus:border-transparent" />
                 </div>
                 <div>
                   <label className="block text-sm font-semibold text-gray-900 mb-1">Tiny Home Type</label>
                   <select name="home_type" required
-                    className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-brand-600 focus:border-transparent">
+                    className="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-600 focus:border-transparent">
                     <option value="">Select home type...</option>
                     {homeTypes.map(([v, l]) => <option key={v} value={v}>{l}</option>)}
                   </select>
@@ -85,20 +106,16 @@ export default function QuoteForm({ variant = 'compact' }: QuoteFormProps) {
                 <div>
                   <label className="block text-sm font-semibold text-gray-900 mb-1">Cover Required</label>
                   <select name="cover_type" required
-                    className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-brand-600 focus:border-transparent">
+                    className="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-600 focus:border-transparent">
                     <option value="">Select cover type...</option>
                     {coverTypes.map(([v, l]) => <option key={v} value={v}>{l}</option>)}
                   </select>
                 </div>
                 <button type="submit" disabled={submitting}
-                  className="w-full bg-brand-700 hover:bg-brand-800 disabled:bg-brand-500 text-white font-semibold py-3 rounded-lg transition-colors">
-                  {submitting ? 'Submitting…' : 'Get My Free Quote →'}
+                  className="w-full bg-green-600 hover:bg-green-700 disabled:bg-green-400 text-white font-bold py-3.5 rounded-xl transition-colors text-lg shadow-md">
+                  {submitting ? 'Submitting…' : 'Get My Quote →'}
                 </button>
-                <div className="border-t pt-4 flex items-center justify-between text-xs text-gray-500">
-                  <span>🔒 256-bit SSL</span>
-                  <span>🚫 No Spam</span>
-                  <span>⚡ 1 Business Day</span>
-                </div>
+                <p className="text-center text-xs text-gray-500">No obligation · No hidden fees · NZ-licensed advisers only</p>
               </div>
             </form>
           </div>
@@ -108,30 +125,30 @@ export default function QuoteForm({ variant = 'compact' }: QuoteFormProps) {
   }
 
   return (
-    <div className="bg-stone-800 rounded-xl p-6 border border-stone-700 shadow-xl">
-      <h3 className="text-xl font-bold text-white mb-1">Get Your Free Tiny Home Quote</h3>
+    <div className="bg-stone-800 rounded-2xl p-7 border-2 border-green-700/40 shadow-2xl shadow-black/30">
+      <h3 className="text-xl font-bold text-white mb-1">Get Your Tiny Home Quote</h3>
       <p className="text-stone-400 text-sm mb-5">NZ-licensed advisers respond within 1 business day</p>
       <form action={SITE.workerUrl} method="POST" onSubmit={handleSubmit} className="space-y-3">
         {hiddenFields}
         <div>
           <label className="block text-xs font-semibold text-stone-300 mb-1">Full Name</label>
           <input type="text" name="name" required placeholder="Your name"
-            className="w-full px-3 py-2 bg-stone-700 border border-stone-600 rounded-lg text-white text-sm placeholder-stone-500 focus:ring-2 focus:ring-brand-500 focus:border-transparent" />
+            className="w-full px-3 py-2.5 bg-stone-700 border border-stone-600 rounded-lg text-white text-sm placeholder-stone-500 focus:ring-2 focus:ring-green-500 focus:border-transparent" />
         </div>
         <div>
           <label className="block text-xs font-semibold text-stone-300 mb-1">Email</label>
           <input type="email" name="email" required placeholder="your@email.com"
-            className="w-full px-3 py-2 bg-stone-700 border border-stone-600 rounded-lg text-white text-sm placeholder-stone-500 focus:ring-2 focus:ring-brand-500 focus:border-transparent" />
+            className="w-full px-3 py-2.5 bg-stone-700 border border-stone-600 rounded-lg text-white text-sm placeholder-stone-500 focus:ring-2 focus:ring-green-500 focus:border-transparent" />
         </div>
         <div>
           <label className="block text-xs font-semibold text-stone-300 mb-1">Phone</label>
           <input type="tel" name="phone" required placeholder="09 XXX XXXX"
-            className="w-full px-3 py-2 bg-stone-700 border border-stone-600 rounded-lg text-white text-sm placeholder-stone-500 focus:ring-2 focus:ring-brand-500 focus:border-transparent" />
+            className="w-full px-3 py-2.5 bg-stone-700 border border-stone-600 rounded-lg text-white text-sm placeholder-stone-500 focus:ring-2 focus:ring-green-500 focus:border-transparent" />
         </div>
         <div>
           <label className="block text-xs font-semibold text-stone-300 mb-1">Tiny Home Type</label>
           <select name="home_type" required
-            className="w-full px-3 py-2 bg-stone-700 border border-stone-600 rounded-lg text-white text-sm focus:ring-2 focus:ring-brand-500 focus:border-transparent">
+            className="w-full px-3 py-2.5 bg-stone-700 border border-stone-600 rounded-lg text-white text-sm focus:ring-2 focus:ring-green-500 focus:border-transparent">
             <option value="">Select type...</option>
             {homeTypes.map(([v, l]) => <option key={v} value={v}>{l}</option>)}
           </select>
@@ -139,19 +156,28 @@ export default function QuoteForm({ variant = 'compact' }: QuoteFormProps) {
         <div>
           <label className="block text-xs font-semibold text-stone-300 mb-1">Cover Required</label>
           <select name="cover_type" required
-            className="w-full px-3 py-2 bg-stone-700 border border-stone-600 rounded-lg text-white text-sm focus:ring-2 focus:ring-brand-500 focus:border-transparent">
+            className="w-full px-3 py-2.5 bg-stone-700 border border-stone-600 rounded-lg text-white text-sm focus:ring-2 focus:ring-green-500 focus:border-transparent">
             <option value="">Select cover...</option>
             {coverTypes.map(([v, l]) => <option key={v} value={v}>{l}</option>)}
           </select>
         </div>
         <button type="submit" disabled={submitting}
-          className="w-full bg-brand-700 hover:bg-brand-600 disabled:bg-brand-500 text-white font-semibold py-2.5 rounded-lg transition-colors text-sm">
-          {submitting ? 'Submitting…' : 'Get My Free Quote →'}
+          className="w-full bg-green-600 hover:bg-green-500 disabled:bg-green-400 text-white font-bold py-3 rounded-xl transition-colors text-sm shadow-md shadow-green-900/40">
+          {submitting ? 'Submitting…' : 'Get My Quote →'}
         </button>
-        <div className="border-t border-stone-700 pt-3 flex items-center justify-between text-xs text-stone-400">
-          <span>🔒 Secure</span>
-          <span>🚫 No Spam</span>
-          <span>⚡ Fast Response</span>
+        <div className="border-t border-stone-700 pt-3 grid grid-cols-3 gap-2 text-center">
+          <div className="bg-stone-700/50 rounded-lg py-2 px-1">
+            <div className="text-base mb-0.5">🔒</div>
+            <div className="text-xs text-stone-400 font-medium">SSL Secure</div>
+          </div>
+          <div className="bg-stone-700/50 rounded-lg py-2 px-1">
+            <div className="text-base mb-0.5">🚫</div>
+            <div className="text-xs text-stone-400 font-medium">No Spam</div>
+          </div>
+          <div className="bg-stone-700/50 rounded-lg py-2 px-1">
+            <div className="text-base mb-0.5">⚡</div>
+            <div className="text-xs text-stone-400 font-medium">1 Business Day</div>
+          </div>
         </div>
       </form>
     </div>

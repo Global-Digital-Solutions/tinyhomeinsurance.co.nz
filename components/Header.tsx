@@ -6,8 +6,6 @@ const navLinks = [
   { label: 'Coverage Types', href: '/coverage/' },
   { label: 'FAQs', href: '/faq/' },
   { label: 'Blog', href: '/blog/' },
-  { label: 'About', href: '/about/' },
-  { label: 'Contact', href: '/contact/' },
 ];
 
 export default function Header() {
@@ -15,8 +13,7 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-50 bg-white/95 backdrop-blur border-b border-brand-100 shadow-sm h-16 flex items-center">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full flex items-center justify-between">
-        <Link href="/" className="flex items-center gap-2 font-extrabold text-slate-900 text-lg leading-tight">
-          <span className="w-8 h-8 rounded-lg bg-brand-700 flex items-center justify-center text-white text-sm font-black flex-shrink-0">🏡</span>
+        <Link href="/" className="flex items-center font-extrabold text-slate-900 text-lg leading-tight">
           <span>TinyHomeInsurance<span className="text-brand-700">.co.nz</span></span>
         </Link>
         <nav className="hidden md:flex items-center gap-6 text-sm font-semibold text-slate-700">
