@@ -29,12 +29,12 @@ export const faqs: FAQ[] = [
   {
     category: 'General',
     question: 'Will mainstream NZ insurers like AA or Initio cover my tiny home?',
-    answer: 'It depends heavily on your home type. Mainstream insurers like AA Insurance and Initio can cover permanently sited tiny homes that are fixed to the land, connected to services, and have a Code of Compliance — but they explicitly decline to insure tiny houses on wheels (THOWs) or any tiny home that can be moved, even if you never plan to move it. AA Insurance requires wheels removed and the home fixed to piles. Initio redirects THOW owners to caravan insurance. If you have a THOW, a DIY build, or an off-grid dwelling, you will likely need a specialist insurer — which is exactly where our advisers can help.',
+    answer: 'It depends heavily on your home type. Mainstream insurers like AA Insurance and Initio can cover permanently sited tiny homes that are fixed to the land, connected to services, and have a Code of Compliance — but they explicitly decline to insure tiny homes on wheels (sometimes called THOWs) or any tiny home that can be moved, even if you never plan to move it. AA Insurance requires wheels removed and the home fixed to piles. Initio redirects owners of mobile tiny homes to caravan insurance. If your home is on wheels, owner-built, or off-grid, you will likely need a specialist insurer — which is exactly where our advisers can help.',
   },
   {
     category: 'General',
-    question: 'My insurer said to get caravan insurance for my THOW. Is that right?',
-    answer: 'It\'s a common response from mainstream insurers, but caravan insurance is not designed for custom-built tiny houses on wheels and is likely to leave you significantly underinsured. Caravan policies are written for manufactured caravans — they typically have low sum-insured limits, depreciation clauses that reduce payouts over time, and restrictions on full-time occupation. A purpose-built THOW is a genuine dwelling with a much higher replacement value. Our specialist advisers work with insurers who understand this distinction and can insure your THOW as the home it actually is.',
+    question: 'My insurer told me to get caravan insurance for my tiny home on wheels. Is that right?',
+    answer: 'It\'s a common response from mainstream insurers, but caravan insurance is not designed for a custom-built tiny home and is likely to leave you significantly underinsured. Caravan policies are written for manufactured caravans — they typically have low sum-insured limits, depreciation clauses that reduce payouts over time, and restrictions on full-time occupation. A purpose-built tiny home on wheels (often called a THOW) is a genuine dwelling with a much higher replacement value. Our specialist advisers work with insurers who understand this distinction and can insure your home as the dwelling it actually is.',
   },
   {
     category: 'General',

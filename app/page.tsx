@@ -12,7 +12,7 @@ const lifestyleTypes = [
   {
     icon: '🚛',
     title: 'Tiny House on Wheels',
-    subtitle: 'THOW',
+    subtitle: 'Mobile · Towable · Relocatable',
     desc: 'Freedom to roam NZ\'s backroads, lifestyle blocks, and communities — with specialist cover that travels with you.',
     gradient: 'from-amber-900/80 to-stone-900/90',
     img: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=800&q=80',
@@ -73,10 +73,10 @@ export default function HomePage() {
             </h1>
 
             <p className="text-xl md:text-2xl text-stone-200 mb-4 leading-relaxed font-light">
-              Mainstream NZ insurers decline THOWs. They redirect off-grid owners to the wrong products. They ghost DIY builders.
+              Tiny home on wheels. Container conversion. Off-grid cabin on a lifestyle block. Standard insurers were not built for the way you live.
             </p>
             <p className="text-lg text-stone-300 mb-10 leading-relaxed">
-              We connect you with NZ-licensed advisers who specialise in exactly this — THOWs, container homes, off-grid cabins, lifestyle block dwellings. Free, no obligation, within one business day.
+              We connect you with NZ-licensed advisers who specialise in exactly this. Free, no obligation, and they respond within one business day.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
@@ -93,7 +93,7 @@ export default function HomePage() {
             <div className="mt-12 flex flex-wrap gap-6 text-sm text-stone-300">
               <span className="flex items-center gap-1.5"><span className="text-green-400">✓</span> NZ-licensed advisers</span>
               <span className="flex items-center gap-1.5"><span className="text-green-400">✓</span> Response within 1 business day</span>
-              <span className="flex items-center gap-1.5"><span className="text-green-400">✓</span> THOWs, container homes &amp; off-grid</span>
+              <span className="flex items-center gap-1.5"><span className="text-green-400">✓</span> Wheels, containers &amp; off-grid covered</span>
               <span className="flex items-center gap-1.5"><span className="text-green-400">✓</span> 100% free &amp; no obligation</span>
             </div>
           </div>
@@ -166,23 +166,23 @@ export default function HomePage() {
                 {[
                   {
                     bad: true,
-                    title: 'Major insurers explicitly decline THOWs',
-                    desc: 'AA Insurance and Initio both redirect THOW owners away. If your home can move — even if you never plan to move it — mainstream insurers won\'t cover it.',
+                    title: 'Tiny homes on wheels are usually declined outright',
+                    desc: 'Major NZ insurers won\'t cover a home that can be moved — even if you never plan to move it. They\'ll tell you to get caravan insurance instead.',
                   },
                   {
                     bad: true,
-                    title: '"Just get caravan insurance" isn\'t good enough',
-                    desc: 'Caravan policies depreciate over time, have low sum-insured limits, and aren\'t designed for custom-built dwellings. You\'d be significantly underinsured.',
+                    title: 'Caravan insurance isn\'t the right answer',
+                    desc: 'Caravan policies have low limits and depreciation clauses designed for manufactured caravans — not for a custom-built home worth $150,000+.',
                   },
                   {
                     bad: true,
-                    title: 'DIY builds and off-grid systems are excluded',
-                    desc: 'Owner-builder homes, solar arrays, battery banks, and rainwater systems are routinely excluded by policies not designed for the tiny home lifestyle.',
+                    title: 'Off-grid systems and owner-built homes are excluded',
+                    desc: 'Solar panels, battery banks, rainwater systems, and homes you\'ve built yourself are routinely excluded by standard policies.',
                   },
                   {
                     bad: false,
                     title: 'Our advisers know which insurers will say yes',
-                    desc: 'We work with specialists who understand the NZ tiny home market and can place your exact home — THOW, container, or off-grid — at full replacement value.',
+                    desc: 'We work with specialists who understand the NZ tiny home market and can place your exact home — on wheels, in a container, or off-grid — at full replacement value.',
                   },
                 ].map(item => (
                   <div key={item.title} className="flex gap-4 p-4 rounded-xl bg-white/5 border border-white/10">
