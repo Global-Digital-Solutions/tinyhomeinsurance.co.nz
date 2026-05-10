@@ -112,7 +112,7 @@ export default function QuoteForm({ variant = 'compact' }: QuoteFormProps) {
                 </div>
                 <Script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer strategy="afterInteractive" />
                 <div className="flex justify-center">
-                  <div className="cf-turnstile" data-sitekey="0x4AAAAAADMnq1OKyxf3JvVv" data-theme="light" />
+                  <div className="cf-turnstile" data-sitekey="0x4AAAAAADMnq1OKyxf3JvVv" data-size="invisible" />
                 </div>
                 <button type="submit" disabled={submitting}
                   className="w-full bg-green-600 hover:bg-green-700 disabled:bg-green-400 text-white font-bold py-3.5 rounded-xl transition-colors text-lg shadow-md">
@@ -166,7 +166,7 @@ export default function QuoteForm({ variant = 'compact' }: QuoteFormProps) {
         </div>
         <Script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer strategy="afterInteractive" />
         <div className="flex justify-center">
-          <div className="cf-turnstile" data-sitekey="0x4AAAAAADMnq1OKyxf3JvVv" data-theme="dark" />
+          <div className="cf-turnstile" data-sitekey="0x4AAAAAADMnq1OKyxf3JvVv" data-size="invisible" />
         </div>
         <button type="submit" disabled={submitting}
           className="w-full bg-green-600 hover:bg-green-500 disabled:bg-green-400 text-white font-bold py-3 rounded-xl transition-colors text-sm shadow-md shadow-green-900/40">
