@@ -135,7 +135,7 @@ export default function ContactPage() {
                 <p className="text-stone-500 text-sm mb-7 leading-relaxed">
                   Fill in the short form below. A NZ-licensed tiny home specialist will compare options and be in touch within one business day.
                 </p>
-                <ContactForm workerUrl={SITE.workerUrl} thankYouUrl={SITE.thankYouUrl} formSubject={SITE.formSubject} />
+                <ContactForm formSubject={SITE.formSubject} />
               </div>
             </div>
           </div>

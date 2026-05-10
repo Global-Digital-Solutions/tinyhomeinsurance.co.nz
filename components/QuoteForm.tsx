@@ -29,10 +29,8 @@ export default function QuoteForm({ variant = 'compact' }: QuoteFormProps) {
 
   const hiddenFields = (
     <>
-      <input type="hidden" name="_next" value={SITE.thankYouUrl} />
       <input type="hidden" name="_subject" value={SITE.formSubject} />
-      <input type="hidden" name="_captcha" value="false" />
-      <input type="text" name="_honey" style={{ display: 'none' }} />
+      <input type="text" name="_honey" style={{ display: 'none' }} tabIndex={-1} autoComplete="off" />
     </>
   );
 
@@ -75,7 +73,7 @@ export default function QuoteForm({ variant = 'compact' }: QuoteFormProps) {
                 </div>
               </div>
             </div>
-            <form action={SITE.workerUrl} method="POST" onSubmit={handleSubmit}
+            <form action="/api/submit-form" method="POST" onSubmit={handleSubmit}
               className="bg-white rounded-2xl p-8 shadow-2xl border border-stone-200">
               {hiddenFields}
               <h3 className="text-xl font-bold text-stone-900 mb-5">Get Your Specialist Quote</h3>
@@ -128,7 +126,7 @@ export default function QuoteForm({ variant = 'compact' }: QuoteFormProps) {
     <div className="bg-stone-800 rounded-2xl p-7 border-2 border-green-700/40 shadow-2xl shadow-black/30">
       <h3 className="text-xl font-bold text-white mb-1">Get Your Tiny Home Quote</h3>
       <p className="text-stone-400 text-sm mb-5">NZ-licensed advisers respond within 1 business day</p>
-      <form action={SITE.workerUrl} method="POST" onSubmit={handleSubmit} className="space-y-3">
+      <form action="/api/submit-form" method="POST" onSubmit={handleSubmit} className="space-y-3">
         {hiddenFields}
         <div>
           <label className="block text-xs font-semibold text-stone-300 mb-1">Full Name</label>

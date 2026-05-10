@@ -2,12 +2,10 @@
 import { useState } from 'react';
 
 interface ContactFormProps {
-  workerUrl: string;
-  thankYouUrl: string;
   formSubject: string;
 }
 
-export default function ContactForm({ workerUrl, thankYouUrl, formSubject }: ContactFormProps) {
+export default function ContactForm({ formSubject }: ContactFormProps) {
   const [submitting, setSubmitting] = useState(false);
 
   const homeTypes = [
@@ -33,11 +31,9 @@ export default function ContactForm({ workerUrl, thankYouUrl, formSubject }: Con
   const labelClass = "block text-sm font-semibold text-stone-800 mb-1.5";
 
   return (
-    <form action={workerUrl} method="POST" onSubmit={() => setSubmitting(true)} className="space-y-5">
-      <input type="hidden" name="_next" value={thankYouUrl} />
+    <form action="/api/submit-form" method="POST" onSubmit={() => setSubmitting(true)} className="space-y-5">
       <input type="hidden" name="_subject" value={formSubject} />
-      <input type="hidden" name="_captcha" value="false" />
-      <input type="text" name="_honey" style={{ display: 'none' }} />
+      <input type="text" name="_honey" style={{ display: 'none' }} tabIndex={-1} autoComplete="off" />
 
       <div className="grid sm:grid-cols-2 gap-4">
         <div>
