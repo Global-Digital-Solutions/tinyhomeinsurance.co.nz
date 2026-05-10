@@ -1,5 +1,6 @@
 'use client';
 import { useState } from 'react';
+import Script from 'next/script';
 import { SITE } from '../data/site';
 
 interface QuoteFormProps {
@@ -109,6 +110,10 @@ export default function QuoteForm({ variant = 'compact' }: QuoteFormProps) {
                     {coverTypes.map(([v, l]) => <option key={v} value={v}>{l}</option>)}
                   </select>
                 </div>
+                <Script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer strategy="afterInteractive" />
+                <div className="flex justify-center">
+                  <div className="cf-turnstile" data-sitekey="0x4AAAAAADMnq1OKyxf3JvVv" data-theme="light" />
+                </div>
                 <button type="submit" disabled={submitting}
                   className="w-full bg-green-600 hover:bg-green-700 disabled:bg-green-400 text-white font-bold py-3.5 rounded-xl transition-colors text-lg shadow-md">
                   {submitting ? 'Submitting…' : 'Get My Quote →'}
@@ -158,6 +163,10 @@ export default function QuoteForm({ variant = 'compact' }: QuoteFormProps) {
             <option value="">Select cover...</option>
             {coverTypes.map(([v, l]) => <option key={v} value={v}>{l}</option>)}
           </select>
+        </div>
+        <Script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer strategy="afterInteractive" />
+        <div className="flex justify-center">
+          <div className="cf-turnstile" data-sitekey="0x4AAAAAADMnq1OKyxf3JvVv" data-theme="dark" />
         </div>
         <button type="submit" disabled={submitting}
           className="w-full bg-green-600 hover:bg-green-500 disabled:bg-green-400 text-white font-bold py-3 rounded-xl transition-colors text-sm shadow-md shadow-green-900/40">

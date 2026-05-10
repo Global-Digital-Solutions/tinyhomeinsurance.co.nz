@@ -1,5 +1,6 @@
 'use client';
 import { useState } from 'react';
+import Script from 'next/script';
 
 interface ContactFormProps {
   formSubject: string;
@@ -82,6 +83,11 @@ export default function ContactForm({ formSubject }: ContactFormProps) {
         <label className={labelClass}>Tell Us About Your Home <span className="text-stone-400 font-normal">(optional)</span></label>
         <textarea name="details" rows={3} placeholder="e.g. Custom built 2024, 28m², solar + battery, parked on private lifestyle block..."
           className={`${inputClass} resize-none`} />
+      </div>
+
+      <Script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer strategy="afterInteractive" />
+      <div className="flex justify-center">
+        <div className="cf-turnstile" data-sitekey="0x4AAAAAADMnq1OKyxf3JvVv" data-theme="light" />
       </div>
 
       <button type="submit" disabled={submitting}
