@@ -1,5 +1,6 @@
 'use client';
-import { useState } from 'react';
+import { useState, FormEvent } from 'react';
+import { useRouter } from 'next/navigation';
 import Script from 'next/script';
 
 interface ContactFormProps {
@@ -7,7 +8,37 @@ interface ContactFormProps {
 }
 
 export default function ContactForm({ formSubject }: ContactFormProps) {
+  const router = useRouter();
   const [submitting, setSubmitting] = useState(false);
+  const [error, setError] = useState('');
+
+  async function handleSubmit(e: FormEvent<HTMLFormElement>) {
+    e.preventDefault();
+    setError('');
+    const fd = new FormData(e.currentTarget);
+    const cfToken = fd.get('cf-turnstile-response');
+    if (!cfToken) {
+      setError('Please wait a moment for the security check to finish, then try again.');
+      return;
+    }
+    const data: Record<string, string> = {};
+    fd.forEach((value, key) => {
+      if (typeof value === 'string') data[key] = value;
+    });
+    setSubmitting(true);
+    try {
+      const res = await fetch('/api/submit-form', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ ...data, cfTurnstileToken: cfToken }),
+      });
+      if (!res.ok) throw new Error('Submission failed');
+      router.push('/thank-you/');
+    } catch {
+      setError('Something went wrong. Please try again.');
+      setSubmitting(false);
+    }
+  }
 
   const homeTypes = [
     ['thow', 'Tiny House on Wheels'],
@@ -32,7 +63,7 @@ export default function ContactForm({ formSubject }: ContactFormProps) {
   const labelClass = "block text-sm font-semibold text-stone-800 mb-1.5";
 
   return (
-    <form action="/api/submit-form" method="POST" onSubmit={() => setSubmitting(true)} className="space-y-5">
+    <form onSubmit={handleSubmit} className="space-y-5">
       <input type="hidden" name="_subject" value={formSubject} />
       <input type="text" name="_honey" style={{ display: 'none' }} tabIndex={-1} autoComplete="off" />
 
@@ -85,6 +116,7 @@ export default function ContactForm({ formSubject }: ContactFormProps) {
           className={`${inputClass} resize-none`} />
       </div>
 
+      {error && <p className="text-sm bg-red-50 text-red-700 border border-red-200 rounded-lg px-3 py-2">{error}</p>}
       <Script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer strategy="afterInteractive" />
       <div className="flex justify-center">
         <div className="cf-turnstile" data-sitekey="0x4AAAAAADMnq1OKyxf3JvVv" data-size="invisible" />

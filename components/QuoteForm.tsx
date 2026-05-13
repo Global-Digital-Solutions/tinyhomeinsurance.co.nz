@@ -1,5 +1,6 @@
 'use client';
-import { useState } from 'react';
+import { useState, FormEvent } from 'react';
+import { useRouter } from 'next/navigation';
 import Script from 'next/script';
 import { SITE } from '../data/site';
 
@@ -8,8 +9,37 @@ interface QuoteFormProps {
 }
 
 export default function QuoteForm({ variant = 'compact' }: QuoteFormProps) {
+  const router = useRouter();
   const [submitting, setSubmitting] = useState(false);
-  const handleSubmit = () => setSubmitting(true);
+  const [error, setError] = useState('');
+
+  async function handleSubmit(e: FormEvent<HTMLFormElement>) {
+    e.preventDefault();
+    setError('');
+    const fd = new FormData(e.currentTarget);
+    const cfToken = fd.get('cf-turnstile-response');
+    if (!cfToken) {
+      setError('Please wait a moment for the security check to finish, then try again.');
+      return;
+    }
+    const data: Record<string, string> = {};
+    fd.forEach((value, key) => {
+      if (typeof value === 'string') data[key] = value;
+    });
+    setSubmitting(true);
+    try {
+      const res = await fetch('/api/submit-form', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ ...data, cfTurnstileToken: cfToken }),
+      });
+      if (!res.ok) throw new Error('Submission failed');
+      router.push('/thank-you/');
+    } catch {
+      setError('Something went wrong. Please try again.');
+      setSubmitting(false);
+    }
+  }
 
   const homeTypes = [
     ['thow', 'Tiny House on Wheels'],
@@ -74,7 +104,7 @@ export default function QuoteForm({ variant = 'compact' }: QuoteFormProps) {
                 </div>
               </div>
             </div>
-            <form action="/api/submit-form" method="POST" onSubmit={handleSubmit}
+            <form onSubmit={handleSubmit}
               className="bg-white rounded-2xl p-8 shadow-2xl border border-stone-200">
               {hiddenFields}
               <h3 className="text-xl font-bold text-stone-900 mb-5">Get Your Specialist Quote</h3>
@@ -110,6 +140,7 @@ export default function QuoteForm({ variant = 'compact' }: QuoteFormProps) {
                     {coverTypes.map(([v, l]) => <option key={v} value={v}>{l}</option>)}
                   </select>
                 </div>
+                {error && <p className="text-xs bg-red-50 text-red-700 border border-red-200 rounded-lg px-3 py-2">{error}</p>}
                 <Script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer strategy="afterInteractive" />
                 <div className="flex justify-center">
                   <div className="cf-turnstile" data-sitekey="0x4AAAAAADMnq1OKyxf3JvVv" data-size="invisible" />
@@ -131,7 +162,7 @@ export default function QuoteForm({ variant = 'compact' }: QuoteFormProps) {
     <div className="bg-stone-800 rounded-2xl p-7 border-2 border-green-700/40 shadow-2xl shadow-black/30">
       <h3 className="text-xl font-bold text-white mb-1">Get Your Tiny Home Quote</h3>
       <p className="text-stone-400 text-sm mb-5">NZ-licensed advisers respond within 1 business day</p>
-      <form action="/api/submit-form" method="POST" onSubmit={handleSubmit} className="space-y-3">
+      <form onSubmit={handleSubmit} className="space-y-3">
         {hiddenFields}
         <div>
           <label className="block text-xs font-semibold text-stone-300 mb-1">Full Name</label>
@@ -164,6 +195,7 @@ export default function QuoteForm({ variant = 'compact' }: QuoteFormProps) {
             {coverTypes.map(([v, l]) => <option key={v} value={v}>{l}</option>)}
           </select>
         </div>
+        {error && <p className="text-xs bg-red-900/30 text-red-200 border border-red-500/40 rounded-lg px-3 py-2">{error}</p>}
         <Script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer strategy="afterInteractive" />
         <div className="flex justify-center">
           <div className="cf-turnstile" data-sitekey="0x4AAAAAADMnq1OKyxf3JvVv" data-size="invisible" />
